@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load jformat %}
+
+
+{% block title %}طربناک -  {{ Post.Title }}{% endblock %}
+
+
+{% block content %}
+
+    <a href="{% url 'blog:index' %}"><h1>طربناک</h1></a>
+
+    {% include 'blog/includes/Post.html' %}
+
+{% endblock %}

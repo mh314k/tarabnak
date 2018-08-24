@@ -1,0 +1,5 @@
+{% load jformat %}
+
+<h4>نظر از طرف {{ Comment.CommenterName }}</h4>
+<p>{{ Comment.CommentTime|jformat:"%A %d %B %Y %H:%M" }}</p>
+<p>{{ Comment.CommentBody|safe }}</p>

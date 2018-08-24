@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post
+from .models import Post,Comment
 import datetime
 from django.core.paginator import Paginator
 
@@ -34,8 +34,10 @@ class PostModelAdmin(admin.ModelAdmin):
         'Author', 'Tags',
         'Status',
     )
+    prepopulated_fields = {"Slug": ("Title",)}
     date_hierarchy = 'PublishTime'
     actions = [ make_draft,
                 make_published,
                 do_duplicate]
 
+admin.site.register(Comment)

@@ -1,0 +1,21 @@
+{%  load jformat %}
+<a href=""><h2>{{ Post.Title }}</h2></a>
+
+<p>{{ Post.PublishTime|jformat:"%A %d %B %Y %H:%M" }}</p>
+<p>{{ Post.Body|safe }}</p>
+<p>
+    {% for tag in  Post.Tags.all %}
+    {% if not forloop.last %}
+        <a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>,
+    {% else %}
+        <a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>
+    {% endif %}
+    {% endfor %}
+<p>نظرها: {{ Comments.count }} نظر</p>
+{% for Comment in Comments %}
+{% include 'blog/includes/Comments.html' %}
+    {% empty %}
+    نظر تایید شده ای موجود نیست
+{% endfor %}
+
+</p>

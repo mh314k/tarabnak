@@ -7,11 +7,13 @@
 
 {% block content %}
 
-    {% include 'blog/PostOverview.html' %}
+    <a href="{% url 'blog:index' %}"><h1>طربناک</h1></a>
 
-    {% if 1 %}
+    {% include 'blog/includes/PostOverview.html' %}
 
-        {% include 'blog/Paginator.html' %}
+    {% if paginator.num_pages > 1 %}
+
+        {% include 'blog/includes/Paginator.html' %}
 
     {% endif %}
 
