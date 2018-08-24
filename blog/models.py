@@ -1,5 +1,4 @@
 from django.db import models
-from django_jalali.db import models as jmodels
 from django.contrib.auth.models import User
 from taggit.managers import TaggableManager
 # Create your models here.
@@ -31,3 +30,4 @@ class Post(models.Model):
 
     def __str(self):
         return "{} نوشته شده توسط {} {}({})".format(self.Title,self.Author.first_name, self.Author.last_name,self.Author.username)
+

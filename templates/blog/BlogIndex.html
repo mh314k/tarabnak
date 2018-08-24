@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load jformat %}
+
+
+{% block title %}طربناک صفحه اصلی{% endblock %}
+
+
+{% block content %}
+
+    {% include 'blog/PostOverview.html' %}
+
+    {% if is_paginated %}
+
+        {% include 'blog/Paginator.html' %}
+
+    {% endif %}
+
+{% endblock %}

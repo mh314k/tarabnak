@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load jformat %}
+
+
+{% block title %}طربناک - برچسب {{ tag }}{% endblock %}
+
+
+{% block content %}
+
+    {% include 'blog/PostOverview.html' %}
+
+    {% if 1 %}
+
+        {% include 'blog/Paginator.html' %}
+
+    {% endif %}
+
+{% endblock %}

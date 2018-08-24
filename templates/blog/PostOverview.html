@@ -1,0 +1,19 @@
+{%  load jformat %}
+    <a href="{% url 'blog:index' %}"><h1>طربناک</h1></a>
+    {% for post in Posts %}
+        <a href=""><h2>{{ post.Title }}</h2></a>
+        <p>{{ post.PublishTime|jformat:"%A %d %B %Y %H:%M" }}</p>
+        <p>{{ post.Body|truncatewords:40|safe }}</p>
+        <p>
+                {% for tag in  post.Tags.all %}
+            {% if not forloop.last %}
+                <a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>,
+            {% else %}
+                <a href="">{{ tag.name }}</a>
+            {% endif %}
+        {% endfor %}
+        </p>
+    {% empty %}
+        مطلبی موجود نیست
+    {% endfor %}
+     <hr>
