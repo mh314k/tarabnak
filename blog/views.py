@@ -34,7 +34,7 @@ def postView(request,year,month,day,slug):
                            PublishTime__day=day,
                            Slug=slug,
                            Status='P')
-    comments = post.COMMENTS.filter(CommentStatus='A')
+    comments = post.COMMENTS.filter(CommentStatus='A',CommentTo__CommentBody__isnull=True)
 
     return render(request,
                   template_name='blog/BlogPost.html',
