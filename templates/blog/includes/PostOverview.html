@@ -1,20 +1,37 @@
-{%  load jformat %}
-    {% for post in Posts %}
-        <a href="{% url 'blog:post' post.PublishTime.year post.PublishTime.month post.PublishTime.day post.Slug  %}"><h2>{{ post.Title }}</h2></a>
+{% load jformat %}
+{% load static %}
 
-        <p>{{ post.PublishTime|jformat:"%A %d %B %Y %H:%M" }}</p>
-        <p>تعداد نظرها: {{ post.COMMENTS.count }} نظر</p>
-        <p>{{ post.Body|truncatewords:50|safe }}</p>
-        <p>
-                {% for tag in  post.Tags.all %}
-            {% if not forloop.last %}
-                <a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>,
-            {% else %}
-                <a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>
-            {% endif %}
-        {% endfor %}
-        </p>
-    {% empty %}
-        مطلبی موجود نیست
-    {% endfor %}
-     <hr>
+{% for post in Posts %}
+	<div class="postBox card horizontal">
+		<div class="card-image postImg">
+			<img src="{% static "img/97800.jpg" %}" alt="{{ post.Title }}">
+		</div>
+		<div class="card-stacked">
+			<div class="card-content">
+				<a href="{% url 'blog:post' post.PublishTime.year post.PublishTime.month post.PublishTime.day post.Slug %}">
+					<h4 class="iryekan mg-t-0">{{ post.Title }}</h4>
+				</a>
+
+				<span class="meta-data right-align">
+					<i class="do0k-calendar9"></i>
+					{{ post.PublishTime|jformat:"%A %d %B %Y %H:%M" }}</span>
+				<span class="meta-data right-align">
+					<i class="do0k-comments2"></i>
+					{{ post.COMMENTS.count }} دیدگاه
+				</span>
+				<p>{{ post.Body|truncatewords:50|safe }}</p>
+				<p>
+					{% for tag in  post.Tags.all %}
+						{% if not forloop.last %}
+							<a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>,
+						{% else %}
+							<a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>
+						{% endif %}
+					{% endfor %}
+				</p>
+			</div>
+		</div>
+	</div>
+{% empty %}
+
+{% endfor %}

@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load jformat %}
+{% load static %}
 
 
 {% block title %}طربناک صفحه اصلی{% endblock %}
@@ -7,14 +8,66 @@
 
 {% block content %}
 
-    <a href="{% url 'blog:index' %}"><h1>طربناک</h1></a>
+	<main>
+		<div class="sliderIndex">
+			<div class="owl-carousel mainSlider">
+				<div class="slide">
+					<img src="{% static "img/97800.jpg" %}" alt="Slide 1">
+				</div>
+				<div class="slide">
+					<img src="{% static "img/7628887.jpg" %}" alt="Slide 1">
+				</div>
+				<div class="slide">
+					<img src="{% static "img/nature-gress-wallpaper.jpg" %}" alt="Slide 1">
+				</div>
+			</div>
+			<div class="navSlider">
+				<div class="owl-navs"></div>
+				<div class="owl-dots"></div>
+			</div>
+		</div>
 
-    {% include 'blog/includes/PostOverview.html' %}
+		<div class="space"></div>
 
-    {% if is_paginated %}
+		<div class="container">
+			<div class="introBox">
+				<div class="row flex flex-row vertical-center">
+					<div class="col s12 m2 right"><h3 class="lalezar intro-title">درباره طربناک</h3></div>
+					<div class="col s12 m10 left">
+						<p class="intro-text">
+							طربناک یک وبلاگ عرفانی است که از سال ۱۳۹۰ بدست محمد حسین خانی کوثرخیزی شروع به فعالیت کرده و
+							از آن زمان تاکنون با فعالیت های خود همراه مخاطبین عزیز طربناک بوده است
+							برای مشاهده وبلاگ شخصی امیرحسین خانی کوثرخیزی روی لینک زیر کلیک کنید
+						</p>
+						<a href="#" class="btn waves-effect btn-blog left waves-light">مشاهده وبلاگ</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        {% include 'blog/includes/Paginator.html' %}
+		<div class="space"></div>
 
-    {% endif %}
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m9 content">
+
+					<div class="title-content">
+						<h3 class="iryekan mg-t-0">آخرین مطالب وبلاگ</h3>
+					</div>
+					{% include 'blog/includes/PostOverview.html' %}
+
+					{% if is_paginated %}
+
+						{% include 'blog/includes/Paginator.html' %}
+
+					{% endif %}
+				</div>
+				<div class="col s12 m3 sidebar"></div>
+			</div>
+		</div>
+
+	</main>
+
+
 
 {% endblock %}
