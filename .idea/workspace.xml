@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8161f59b-8719-427c-b31e-086f233c7802" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tarabnak/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarabnak/settings.py" afterDir="false" />
+    <list default="true" id="2de2b6ab-a3af-40c3-8e22-c68f83cab72a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,36 +60,59 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2115662095">
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.delete.remote" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
+        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1131">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="240">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/includes/PostOverview.html">
+        <entry file="file://$PROJECT_DIR$/blog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="292" column="45" selection-start-line="292" selection-start-column="45" selection-end-line="292" selection-end-column="45" />
+            <state relative-caret-position="720">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#418#438#0" />
-                <element signature="e#448#455#0" />
-                <element signature="e#2138#3877#0" />
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1535112490632" expanded="true" signature="477:767" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="89" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+                <marker date="1535281256374" expanded="true" signature="284:289" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1535281736755" expanded="true" signature="2314:2319" ph="..." />
               </folding>
             </state>
           </provider>
@@ -97,17 +121,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tarabnak/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+            <state relative-caret-position="312">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Comments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <folding>
+                <element signature="e#211#252#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,6 +150,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/blog/admin.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,12 +183,13 @@
     <option name="width" value="1845" />
     <option name="height" value="1591" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,14 +200,19 @@
             <path>
               <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
               <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
               <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,6 +251,32 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server">
+      <module name="tarabnak" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="tarabnak.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="true" />
+      <option name="customRunCommand" value="LC_ALL=fa_IR python manage.py runserver" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -234,10 +296,10 @@
     <option name="totallyTimeSpent" value="11955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="42" width="3750" height="2118" extended-state="6" />
+    <frame x="-1" y="0" width="1026" height="749" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12179137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22301425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -246,16 +308,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49898168" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NativeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32113144" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32063493" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50101835" side_tool="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Database Changes" order="10" sideWeight="0.49898168" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49898168" visible="true" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -268,12 +330,62 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21486762" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49898168" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49796334" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32857144" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5040733" side_tool="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="manage.py@tarabnak" order="6" sideWeight="0.49592668" weight="0.32857144" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49592668" weight="0.32857144" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" sideWeight="0.49898168" weight="0.32857144" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.rb" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -290,20 +402,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../tarabnak/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="67" column="47" lean-forward="true" selection-start-line="60" selection-end-line="67" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/tarabnak/index.html" />
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -369,18 +472,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="292" column="45" selection-start-line="292" selection-start-column="45" selection-end-line="292" selection-end-column="45" />
-          <folding>
-            <element signature="e#418#438#0" />
-            <element signature="e#448#455#0" />
-            <element signature="e#2138#3877#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tarabnak/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+        <state relative-caret-position="312">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>
