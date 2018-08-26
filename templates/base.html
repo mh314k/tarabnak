@@ -1,9 +1,54 @@
-<html>
+{% load static %}
+<!doctype html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{% endblock %}</title>
+	<!-- Attach Stylesheet-->
+	<link rel="stylesheet" href="{% static "css/tarabnak.css" %}" media="screen, projection">
 </head>
-<body style="direction: rtl">
+<body>
+<header>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo right p-static lalezar">طربناک</a>
+					<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="#">خانه</a></li>
+						<li><a href="#">مقدمه</a></li>
+						<li><a href="#">پست ثابت</a></li>
+					</ul>
+					<form class="search-nav left">
+						<input type="search" class="browser-default search-txt" placeholder="جستجو ...">
+						<button type="submit" class="btn-search"><i class="material-icons">search</i></button>
+					</form>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</nav>
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="#">خانه</a></li>
+			<li><a href="#">مقدمه</a></li>
+			<li><a href="#">پست ثابت</a></li>
+		</ul>
+	</div>
+</header>
+
 {% block content %}
 {% endblock %}
+
+<footer></footer>
+<!-- Attach scripts -->
+<!-- Compiled and minified Jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script src="{% static "js/owl.carousel.min.js" %}"></script>
+<script src="{% static "js/tarabnak.js" %}"></script>
 </body>
 </html>
