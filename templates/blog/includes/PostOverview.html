@@ -4,9 +4,12 @@
 {% for post in Posts %}
 	<div class="postBox card horizontal">
 		<div class="card-image postImg">
-			{% if post.Image %}
-				<img src="{{ post.Image.url }}" alt="{{ post.Title }}">
-			{% endif %}
+            {% if post.Image %}
+                <img src="{{ post.Image.url }}" alt="{{ post.Title }}">
+            {% endif %}
+            {% if not post.Image %}
+                <img src="{% static "img/97800.jpg" %}" alt="{{ post.Title }}">
+            {% endif %}
 		</div>
 		<div class="card-stacked">
 			<div class="card-content">

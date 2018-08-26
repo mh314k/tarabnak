@@ -84,7 +84,7 @@ class Comment(models.Model):
         verbose_name_plural = 'نظرها'
         ordering = ['-CommentTime']
 
-    def __str(self):
+    def __str__(self):
         return "نظر توسط {} برای {}".format(self.CommenterName,self.PostTo.Title)
 
 #class Category
