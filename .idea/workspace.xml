@@ -2,126 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8161f59b-8719-427c-b31e-086f233c7802" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/materialize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/materialize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/materialize.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/materialize.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/materialize/materialize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/tarabnak.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/do0k.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/do0k.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/do0k.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/do0k.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum).eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/eot/IRANSansWeb(FaNum)_UltraLight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum).ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum).woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff/IRANSansWeb(FaNum)_UltraLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum).woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/isans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/eot/iranyekanwebbold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/eot/iranyekanweblight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/eot/iranyekanwebregular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/ttf/iranyekanwebbold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/ttf/iranyekanweblight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/ttf/iranyekanwebregular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/woff/iranyekanwebbold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/woff/iranyekanweblight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/woff/iranyekanwebregular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/woff2/iranyekanwebbold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/woff2/iranyekanweblight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/iyekan/woff2/iranyekanwebregular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/7628887.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/97800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/blu_flower_by_wuddie06-d64rdcw.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/nature-gress-wallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/materialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/tarabnak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/do0kFonts/fonts/do0k.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/do0kFonts/fonts/do0k.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/do0kFonts/fonts/do0k.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/do0kFonts/fonts/do0k.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/do0kFonts/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/do0kFonts/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_chips.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_collapsible.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_color-classes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_color-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_datepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_icons-material-design.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_materialbox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_preloader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_pulse.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_sidenav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_table_of_contents.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_tapTarget.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_timepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_toast.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/_waves.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_checkboxes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_file-input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_input-fields.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_radio-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_range.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_select.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/components/forms/_switches.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/materialize/materialize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/tarabnak.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/tarabnak/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/tarabnak/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/tarabnak/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/tarabnak/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tarabnak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tarabnak.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarabnak/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarabnak/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/BlogIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/BlogIndex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -163,18 +44,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="780" />
+          <entry key="html" value="807" />
           <entry key="py" value="21" />
           <entry key="rb" value="82" />
-          <entry key="scss" value="487" />
+          <entry key="scss" value="501" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="780" />
+          <entry key="HTML" value="807" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="Python" value="21" />
-          <entry key="SCSS" value="487" />
+          <entry key="SCSS" value="501" />
         </counts>
       </usages-collector>
     </session>
@@ -190,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/includes/PostOverview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="765">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -202,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3600">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="192">
+              <caret line="292" column="45" selection-start-line="292" selection-start-column="45" selection-end-line="292" selection-end-column="45" />
               <folding>
                 <element signature="e#418#438#0" />
                 <element signature="e#448#455#0" />
@@ -213,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tarabnak/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1211">
-              <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+            <state relative-caret-position="587">
+              <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -249,14 +130,14 @@
         <option value="$PROJECT_DIR$/static/config.rb" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/static/scss/tarabnak/_flex.scss" />
-        <option value="$PROJECT_DIR$/tarabnak/settings.py" />
         <option value="$PROJECT_DIR$/static/scss/tarabnak/_fonts.scss" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/blog/BlogIndex.html" />
         <option value="$PROJECT_DIR$/static/scss/tarabnak/_helpers.scss" />
         <option value="$PROJECT_DIR$/static/scss/do0kFonts/style.scss" />
-        <option value="$PROJECT_DIR$/static/scss/tarabnak.scss" />
         <option value="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" />
+        <option value="$PROJECT_DIR$/static/scss/tarabnak.scss" />
+        <option value="$PROJECT_DIR$/tarabnak/settings.py" />
       </list>
     </option>
   </component>
@@ -288,70 +169,7 @@
             <path>
               <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
               <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
               <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="do0kFonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="do0kFonts" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535281793142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535282175442" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -408,12 +226,12 @@
       <option name="presentableId" value="Default" />
       <updated>1535213502213</updated>
       <workItem from="1535213512758" duration="394000" />
-      <workItem from="1535226399156" duration="10778000" />
+      <workItem from="1535226399156" duration="11561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11172000" />
+    <option name="totallyTimeSpent" value="11955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="90" y="42" width="3750" height="2118" extended-state="6" />
@@ -434,7 +252,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NativeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32113144" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32113144" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -503,13 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tarabnak/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1211">
-          <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/tarabnak/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5670">
@@ -540,18 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3600">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#418#438#0" />
-            <element signature="e#448#455#0" />
-            <element signature="e#2138#3877#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1131">
@@ -561,8 +360,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/includes/PostOverview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="765">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="292" column="45" selection-start-line="292" selection-start-column="45" selection-end-line="292" selection-end-column="45" />
+          <folding>
+            <element signature="e#418#438#0" />
+            <element signature="e#448#455#0" />
+            <element signature="e#2138#3877#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarabnak/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
         </state>
       </provider>
     </entry>
