@@ -42,7 +42,7 @@ class Post(models.Model):
         verbose_name_plural = 'پست ها'
         ordering = ['-PublishTime']
 
-    def __str(self):
+    def __str__(self):
         return "{} نوشته شده توسط {} {}({})".format(self.Title,self.Author.first_name, self.Author.last_name,self.Author.username)
 
 class Comment(models.Model):
@@ -59,6 +59,12 @@ class Comment(models.Model):
                                verbose_name='پست مورد نظر',
                                null=True,
                                blank=True)
+    CommentTo = models.ForeignKey('self',
+                                  on_delete=models.CASCADE,
+                                  related_name='REPLIES',
+                                  null=True,
+                                  blank=True
+                                  )
     CommenterUser = models.ForeignKey(User,
                                       on_delete=models.CASCADE,
                                       verbose_name='کاربر نظردهنده',
@@ -81,3 +87,4 @@ class Comment(models.Model):
     def __str(self):
         return "نظر توسط {} برای {}".format(self.CommenterName,self.PostTo.Title)
 
+#class Category

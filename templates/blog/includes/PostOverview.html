@@ -4,6 +4,9 @@
 
         <p>{{ post.PublishTime|jformat:"%A %d %B %Y %H:%M" }}</p>
         <p>تعداد نظرها: {{ post.COMMENTS.count }} نظر</p>
+        {% if post.Image %}
+                <img src="{{ post.Image.url }}" style="width: 700px;height: 30%">
+        {% endif %}
         <p>{{ post.Body|truncatewords:50|safe }}</p>
         <p>
                 {% for tag in  post.Tags.all %}
