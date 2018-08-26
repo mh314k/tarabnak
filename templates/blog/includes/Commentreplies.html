@@ -1,13 +1,8 @@
 {% load jformat %}
 
-<h4>{{ Comment.CommenterName }} نظر داد:</h4>
+<h4>{{ Comment.CommenterName }} پاسخ داد:</h4>
 <p>{{ Comment.CommentTime|jformat:"%A %d %B %Y %H:%M" }}</p>
 <p>{{ Comment.CommentBody|safe }}</p>
 {% for Reply in Comment.REPLIES.all %}
-<div>
-
-<!-- bazkhani hamin include baraye tak take cammentha be sourate tou dar tou -->
 {% include "blog/includes/Commentreplies.html" with Comment=Reply %}
-
-</div>
 {% endfor %}

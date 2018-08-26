@@ -12,7 +12,7 @@
         <a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>
     {% endif %}
     {% endfor %}
-<p>نظرها: {{ Comments.count }} نظر</p>
+<p>نظرها: {{ Post.COMMENTS.count }} نظر</p>
 {% for Comment in Comments %}
 {% include 'blog/includes/Comments.html' %}
     {% empty %}
