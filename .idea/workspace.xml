@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de2b6ab-a3af-40c3-8e22-c68f83cab72a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/blog/includes/Commentreplies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/BlogIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/BlogIndex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/BlogPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/BlogPost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/BlogTagList.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/BlogTagList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/includes/Comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/Comments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/includes/Post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/Post.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -97,34 +104,60 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Post.html">
+        <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="2385">
+              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Commentreplies.html">
+        <entry file="file://$PROJECT_DIR$/templates/blog/includes/PostOverview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="495">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/views.py">
+        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Comments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="53" />
+            <state relative-caret-position="270">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13455">
+              <caret line="299" column="31" selection-start-line="299" selection-start-column="31" selection-end-line="299" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/migrations/0011_comment_commentto.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
-                <marker date="1535289046868" expanded="true" signature="284:289" ph="..." />
+                <element signature="e#47#87#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -186,17 +219,14 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
               <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
@@ -220,8 +250,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,13 +359,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11955000" />
+    <option name="totallyTimeSpent" value="11980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1026" height="749" extended-state="6" />
-    <editor active="true" />
+    <frame x="90" y="42" width="3750" height="2118" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22301425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12315674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -352,10 +379,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NativeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32063493" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32057682" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50101835" side_tool="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="10" sideWeight="0.49898168" weight="0.32857144" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49898168" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49898168" visible="true" weight="0.32834166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -556,8 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="292" column="45" selection-start-line="292" selection-start-column="45" selection-end-line="292" selection-end-column="45" />
+        <state relative-caret-position="13455">
+          <caret line="299" column="31" selection-start-line="299" selection-start-column="31" selection-end-line="299" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -565,10 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1535112490632" expanded="true" signature="477:767" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,15 +608,14 @@
           <caret line="90" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1535281736755" expanded="true" signature="2314:2319" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/includes/PostOverview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="495">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -613,25 +635,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="2385">
+          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="810">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/includes/Comments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -655,7 +674,6 @@
           <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="53" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1535289046868" expanded="true" signature="284:289" ph="..." />
           </folding>
         </state>
       </provider>
