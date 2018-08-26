@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de2b6ab-a3af-40c3-8e22-c68f83cab72a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/includes/Post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/Post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="280" />
-          <entry key="py" value="2" />
+          <entry key="py" value="285" />
           <entry key="txt" value="80" />
         </counts>
       </usages-collector>
@@ -79,19 +80,20 @@
           <entry key="DjangoUrlPath" value="1" />
           <entry key="HTML" value="279" />
           <entry key="PLAIN_TEXT" value="80" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="11" />
-          <entry key="py" value="2" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="11" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="5" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -99,32 +101,82 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Post.html">
+        <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="-105">
+              <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/includes/Commentreplies.html">
+        <entry file="file://$PROJECT_DIR$/blog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="167">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1535301128108" expanded="true" signature="487:777" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-                <marker date="1535289046868" expanded="true" signature="284:289" ph="..." />
-              </folding>
+        <entry file="uml://Python/#/home/mh314k/PycharmProjects/tarabnak/blog/models.py">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>Python</ID>
+              <OriginalElement>#/home/mh314k/PycharmProjects/tarabnak/blog/models.py</OriginalElement>
+              <nodes>
+                <node x="129.0" y="1999.0">blog.models.Category</node>
+                <node x="0.0" y="543.0">django.db.models.base.Model</node>
+                <node x="398.0" y="66.0">django.db.models.base.ModelBase</node>
+                <node x="90.0" y="0.0">object</node>
+                <node x="502.0" y="1900.0">blog.models.Post</node>
+                <node x="313.0" y="1944.0">blog.models.Comment</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="django.db.models.base.Model" target="django.db.models.base.ModelBase">
+                  <point x="198.75" y="-653.5" />
+                  <point x="596.25" y="518.0" />
+                  <point x="554.0" y="518.0" />
+                  <point x="0.0" y="180.5" />
+                </edge>
+                <edge source="blog.models.Comment" target="django.db.models.base.Model">
+                  <point x="0.0" y="-126.0" />
+                  <point x="0.0" y="653.5" />
+                </edge>
+                <edge source="blog.models.Post" target="django.db.models.base.Model">
+                  <point x="0.0" y="-170.0" />
+                  <point x="570.0" y="1875.0" />
+                  <point x="662.5" y="1875.0" />
+                  <point x="265.0" y="653.5" />
+                </edge>
+                <edge source="django.db.models.base.Model" target="object">
+                  <point x="-198.75" y="-653.5" />
+                  <point x="198.75" y="518.0" />
+                  <point x="234.0" y="518.0" />
+                  <point x="0.0" y="246.5" />
+                </edge>
+                <edge source="blog.models.Category" target="django.db.models.base.Model">
+                  <point x="0.0" y="-71.0" />
+                  <point x="211.0" y="1875.0" />
+                  <point x="132.5" y="1875.0" />
+                  <point x="-265.0" y="653.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="397.5" y="1110.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Inner Classes</Category>
+                <Category>Methods</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -164,6 +216,8 @@
         <option value="$PROJECT_DIR$/templates/blog/includes/Comments.html" />
         <option value="$PROJECT_DIR$/templates/blog/includes/Commentreplies.html" />
         <option value="$PROJECT_DIR$/templates/blog/includes/Post.html" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/blog/admin.py" />
       </list>
     </option>
   </component>
@@ -174,10 +228,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="90" />
-    <option name="y" value="42" />
-    <option name="width" value="1845" />
-    <option name="height" value="1591" />
+    <option name="x" value="-1" />
+    <option name="width" value="1026" />
+    <option name="height" value="749" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -203,19 +256,6 @@
               <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tarabnak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tarabnak" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -228,7 +268,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535282175442" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -334,10 +374,10 @@
     <option name="totallyTimeSpent" value="11955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1026" height="749" extended-state="6" />
+    <frame x="-1" y="0" width="1026" height="749" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22301425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22708757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -561,32 +601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1535112490632" expanded="true" signature="477:767" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tarabnak/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1535281736755" expanded="true" signature="2314:2319" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,25 +616,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/BlogPost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/BlogTagList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -627,11 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/includes/Comments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -655,8 +658,82 @@
           <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="53" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1535289046868" expanded="true" signature="284:289" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1535301128108" expanded="true" signature="487:777" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#/home/mh314k/PycharmProjects/tarabnak/blog/models.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/home/mh314k/PycharmProjects/tarabnak/blog/models.py</OriginalElement>
+          <nodes>
+            <node x="129.0" y="1999.0">blog.models.Category</node>
+            <node x="0.0" y="543.0">django.db.models.base.Model</node>
+            <node x="398.0" y="66.0">django.db.models.base.ModelBase</node>
+            <node x="90.0" y="0.0">object</node>
+            <node x="502.0" y="1900.0">blog.models.Post</node>
+            <node x="313.0" y="1944.0">blog.models.Comment</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="django.db.models.base.Model" target="django.db.models.base.ModelBase">
+              <point x="198.75" y="-653.5" />
+              <point x="596.25" y="518.0" />
+              <point x="554.0" y="518.0" />
+              <point x="0.0" y="180.5" />
+            </edge>
+            <edge source="blog.models.Comment" target="django.db.models.base.Model">
+              <point x="0.0" y="-126.0" />
+              <point x="0.0" y="653.5" />
+            </edge>
+            <edge source="blog.models.Post" target="django.db.models.base.Model">
+              <point x="0.0" y="-170.0" />
+              <point x="570.0" y="1875.0" />
+              <point x="662.5" y="1875.0" />
+              <point x="265.0" y="653.5" />
+            </edge>
+            <edge source="django.db.models.base.Model" target="object">
+              <point x="-198.75" y="-653.5" />
+              <point x="198.75" y="518.0" />
+              <point x="234.0" y="518.0" />
+              <point x="0.0" y="246.5" />
+            </edge>
+            <edge source="blog.models.Category" target="django.db.models.base.Model">
+              <point x="0.0" y="-71.0" />
+              <point x="211.0" y="1875.0" />
+              <point x="132.5" y="1875.0" />
+              <point x="-265.0" y="653.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="397.5" y="1110.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Methods</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
