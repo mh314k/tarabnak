@@ -9,14 +9,14 @@ class BlogPostClassView(ListView):
     model = Post
     queryset = Post.objects.filter(Status='P')
     template_name = "blog/BlogIndex.html"
-    paginate_by = 10
+    paginate_by = 2
     context_object_name = 'Posts'
 
 
 def taglistview(request, tagname):
     tag= get_object_or_404(Tag,name=tagname)
     Posts=Post.objects.filter(Tags__in=[tag])
-    paginator = Paginator(Posts,10)
+    paginator = Paginator(Posts,2)
     page = request.GET.get('page')
     try:
         Posts = paginator.get_page(page)
