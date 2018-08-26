@@ -4,7 +4,7 @@
 <p>{{ Comment.CommentTime|jformat:"%A %d %B %Y %H:%M" }}</p>
 <p>{{ Comment.CommentBody|safe }}</p>
 {% for Reply in Comment.REPLIES.all %}
-<div style="font-weight: lighter;margin: 50px">
+<div>
 
 <!-- bazkhani hamin include baraye tak take cammentha be sourate tou dar tou -->
 {% include "blog/includes/Comments.html" with Comment=Reply %}
