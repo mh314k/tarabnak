@@ -4,7 +4,9 @@
 {% for post in Posts %}
 	<div class="postBox card horizontal">
 		<div class="card-image postImg">
-			<img src="{% static "img/97800.jpg" %}" alt="{{ post.Title }}">
+			{% if post.Image %}
+				<img src="{{ post.Image.url }}" alt="{{ post.Title }}">
+			{% endif %}
 		</div>
 		<div class="card-stacked">
 			<div class="card-content">
@@ -13,10 +15,10 @@
 				</a>
 
 				<span class="meta-data right-align">
-					<i class="do0k-calendar9"></i>
+					<i class="do0k-calendar9 right"></i>
 					{{ post.PublishTime|jformat:"%A %d %B %Y %H:%M" }}</span>
 				<span class="meta-data right-align">
-					<i class="do0k-comments2"></i>
+					<i class="do0k-comments2 right"></i>
 					{{ post.COMMENTS.count }} دیدگاه
 				</span>
 				<p>{{ post.Body|truncatewords:50|safe }}</p>

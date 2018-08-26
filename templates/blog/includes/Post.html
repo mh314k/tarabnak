@@ -2,9 +2,7 @@
 <a href=""><h2>{{ Post.Title }}</h2></a>
 
 <p>{{ Post.PublishTime|jformat:"%A %d %B %Y %H:%M" }}</p>
-{% if Post.Image %}
-<img src="{{ Post.Image.url }}" style="width: 700px;height: 30%">
-{% endif %}
+
 <p>{{ Post.Body|safe }}</p>
 <p>
     {% for tag in  Post.Tags.all %}
