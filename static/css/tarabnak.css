@@ -46642,8 +46642,8 @@ body .sliderIndex .navSlider .owl-dots .owl-dot.active {
 body .introBox {
   border-radius: 25px;
   background-color: #ffffff;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  padding: 35px 100px 45px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+  padding: 25px 100px 35px;
 }
 /* line 245, ../scss/tarabnak.scss */
 body .introBox .row {
@@ -46652,17 +46652,17 @@ body .introBox .row {
 /* line 249, ../scss/tarabnak.scss */
 body .introBox .intro-title {
   color: #31bad5;
-  font-size: 65px;
+  font-size: 50px;
   margin: 0;
 }
 /* line 255, ../scss/tarabnak.scss */
 body .introBox .intro-text {
   margin-right: 70px;
-  font-size: 20px;
+  font-size: 16px;
   vertical-align: middle;
   display: inline-block;
   text-align: justify;
-  line-height: 45px;
+  line-height: 30px;
 }
 /* line 264, ../scss/tarabnak.scss */
 body .introBox .btn-blog {
@@ -46678,11 +46678,24 @@ body .introBox .btn-blog {
   line-height: 40px;
 }
 /* line 278, ../scss/tarabnak.scss */
+body .advBox {
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  height: 150px;
+}
+/* line 285, ../scss/tarabnak.scss */
+body .advBox img {
+  height: 100%;
+  width: 100%;
+}
+/* line 291, ../scss/tarabnak.scss */
 body .content {
   padding-left: 0 !important;
   padding-right: 20px !important;
 }
-/* line 282, ../scss/tarabnak.scss */
+/* line 295, ../scss/tarabnak.scss */
 body .content .title-content {
   font-size: 16px;
   color: #707070;
@@ -46693,12 +46706,12 @@ body .content .title-content {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 289, ../scss/tarabnak.scss */
+/* line 302, ../scss/tarabnak.scss */
 body .content .title-content h3 {
   font-size: 18px;
   font-weight: bold;
 }
-/* line 294, ../scss/tarabnak.scss */
+/* line 307, ../scss/tarabnak.scss */
 body .content .title-content:after {
   content: '';
   width: 50px;
@@ -46710,22 +46723,22 @@ body .content .title-content:after {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 303, ../scss/tarabnak.scss */
+/* line 316, ../scss/tarabnak.scss */
 body .content .title-content:hover:after {
   width: 75px;
 }
-/* line 308, ../scss/tarabnak.scss */
+/* line 321, ../scss/tarabnak.scss */
 body .content .postBox {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
   overflow: hidden;
 }
-/* line 314, ../scss/tarabnak.scss */
+/* line 327, ../scss/tarabnak.scss */
 body .content .postBox .postImg {
   max-width: 25%;
 }
-/* line 317, ../scss/tarabnak.scss */
+/* line 330, ../scss/tarabnak.scss */
 body .content .postBox .postImg img {
   height: 100%;
   width: 100%;
@@ -46733,33 +46746,33 @@ body .content .postBox .postImg img {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 327, ../scss/tarabnak.scss */
+/* line 340, ../scss/tarabnak.scss */
 body .content .postBox .card-content a {
   color: #31bad5;
 }
-/* line 330, ../scss/tarabnak.scss */
+/* line 343, ../scss/tarabnak.scss */
 body .content .postBox .card-content a h4 {
   font-size: 16px;
   font-weight: bold;
 }
-/* line 337, ../scss/tarabnak.scss */
+/* line 350, ../scss/tarabnak.scss */
 body .content .postBox .card-action {
   padding: 10px 24px;
 }
-/* line 340, ../scss/tarabnak.scss */
+/* line 353, ../scss/tarabnak.scss */
 body .content .postBox .card-action .meta-data {
   display: inline-block;
   color: #bdbdbd;
   margin-left: 15px;
   line-height: 35px;
 }
-/* line 346, ../scss/tarabnak.scss */
+/* line 359, ../scss/tarabnak.scss */
 body .content .postBox .card-action .meta-data i {
   margin-left: 5px;
   font-size: 18px;
   line-height: inherit;
 }
-/* line 353, ../scss/tarabnak.scss */
+/* line 366, ../scss/tarabnak.scss */
 body .content .postBox .card-action .btn-more {
   background: #31bad5;
   color: #ffffff;
@@ -46772,25 +46785,58 @@ body .content .postBox .card-action .btn-more {
   height: 40px;
   line-height: 40px;
 }
-/* line 365, ../scss/tarabnak.scss */
+/* line 378, ../scss/tarabnak.scss */
 body .content .postBox .card-action .btn-more i {
   vertical-align: -5px;
 }
-/* line 374, ../scss/tarabnak.scss */
+/* line 389, ../scss/tarabnak.scss */
+body .sidebar .widgetbox {
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+/* line 398, ../scss/tarabnak.scss */
 body .pagination {
   font-size: 14px;
 }
-/* line 377, ../scss/tarabnak.scss */
+/* line 401, ../scss/tarabnak.scss */
 body .pagination li {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
 }
-/* line 384, ../scss/tarabnak.scss */
-body .pagination li.page-nav a i {
-  vertical-align: -11px;
+/* line 408, ../scss/tarabnak.scss */
+body .pagination li.page-nav.next-page a {
+  padding-left: 5px;
+  padding-right: 15px;
 }
-/* line 390, ../scss/tarabnak.scss */
+/* line 415, ../scss/tarabnak.scss */
+body .pagination li.page-nav.last-page a {
+  padding-right: 5px;
+  padding-left: 15px;
+}
+/* line 421, ../scss/tarabnak.scss */
+body .pagination li.page-nav a {
+  border-radius: 25px;
+  line-height: 26px;
+  -moz-transition: all 320ms;
+  -o-transition: all 320ms;
+  -webkit-transition: all 320ms;
+  transition: all 320ms;
+}
+/* line 426, ../scss/tarabnak.scss */
+body .pagination li.page-nav a:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  border: solid 1px #31bad5;
+}
+/* line 432, ../scss/tarabnak.scss */
+body .pagination li.page-nav a i {
+  vertical-align: -9px;
+  font-size: 1.5rem;
+}
+/* line 439, ../scss/tarabnak.scss */
 body .pagination li a {
   font-size: 14px;
   color: #707070;
@@ -46798,18 +46844,18 @@ body .pagination li a {
   line-height: 30px;
   height: 30px;
 }
-/* line 398, ../scss/tarabnak.scss */
+/* line 447, ../scss/tarabnak.scss */
 body .pagination li.active {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   border: solid 1px #31bad5;
 }
-/* line 403, ../scss/tarabnak.scss */
+/* line 452, ../scss/tarabnak.scss */
 body .pagination li.active a {
   color: #707070;
   min-width: 28px;
 }
-/* line 411, ../scss/tarabnak.scss */
+/* line 460, ../scss/tarabnak.scss */
 body footer {
   background-color: #31bad5;
   color: #FFFFFF;

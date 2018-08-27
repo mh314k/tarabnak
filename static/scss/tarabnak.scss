@@ -239,8 +239,8 @@ body {
 	.introBox {
 		border-radius: 25px;
 		background-color: #ffffff;
-		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-		padding: 35px 100px 45px;
+		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+		padding: 25px 100px 35px;
 
 		.row {
 			margin-bottom: 0;
@@ -248,17 +248,17 @@ body {
 
 		.intro-title {
 			color: #31bad5;
-			font-size: 65px;
+			font-size: 50px;
 			margin: 0;
 		}
 
 		.intro-text {
 			margin-right: 70px;
-			font-size: 20px;
+			font-size: 16px;
 			vertical-align: middle;
 			display: inline-block;
 			text-align: justify;
-			line-height: 45px;
+			line-height: 30px;
 		}
 
 		.btn-blog {
@@ -272,6 +272,19 @@ body {
 			padding-right: 50px;
 			height: 40px;
 			line-height: 40px;
+		}
+	}
+
+	.advBox {
+		border-radius: 25px;
+		background-color: #ffffff;
+		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+		overflow: hidden;
+		height: 150px;
+
+		img {
+			height: 100%;
+			width: 100%;
 		}
 	}
 
@@ -371,6 +384,16 @@ body {
 		}
 	}
 
+	.sidebar {
+
+		.widgetbox {
+			border-radius: 25px;
+			background-color: #ffffff;
+			box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+			overflow: hidden;
+		}
+	}
+
 	.pagination {
 		font-size: 14px;
 
@@ -380,9 +403,34 @@ body {
 			border-radius: 25px;
 
 			&.page-nav {
+				&.next-page {
+					a {
+						padding-left: 5px;
+						padding-right: 15px;
+					}
+				}
+
+				&.last-page {
+					a {
+						padding-right: 5px;
+						padding-left: 15px;
+					}
+				}
+
 				a {
+					border-radius: 25px;
+					line-height: 26px;
+					@include single-transition(all, 320ms);
+
+					&:hover {
+						box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+						background-color: #ffffff;
+						border: solid 1px #31bad5;
+					}
+
 					i {
-						vertical-align: -11px;
+						vertical-align: -9px;
+						font-size: 1.5rem;
 					}
 				}
 			}

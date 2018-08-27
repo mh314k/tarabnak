@@ -1,6 +1,12 @@
 $(document).ready(function(){
 	$('.sidenav').sidenav();
 
+	$(document).ready(function(){
+		$('.collapsible').collapsible({
+			accordion: false
+		});
+	});
+
 	$(".mainSlider").owlCarousel({
 		items: 1,
 		nav: true,

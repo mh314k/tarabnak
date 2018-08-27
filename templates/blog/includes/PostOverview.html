@@ -2,7 +2,7 @@
 {% load static %}
 
 {% for post in Posts %}
-	<div class="postBox card horizontal">
+	<div class="postBox card horizontal hoverable">
 		<div class="card-image postImg">
 			{% if post.Image %}
 				<img src="{{ post.Image.url }}" alt="{{ post.Title }}">
