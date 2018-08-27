@@ -384,6 +384,7 @@ body {
 		}
 	}
 
+	$main-color: #31bad5;
 	.sidebar {
 
 		.widgetbox {
@@ -391,13 +392,89 @@ body {
 			background-color: #ffffff;
 			box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
 			overflow: hidden;
+			padding: 15px 0;
 
-			.list-nested {
-				list-style: disc;
-				padding-right: 15px;
+			.title-widget {
+				font-size: 16px;
+				color: #707070;
+				position: relative;
+				cursor: pointer;
+				margin-bottom: 25px;
+				@include single-transition(all, 320ms);
 
-				li {
-					list-style-type: disc;
+				h4 {
+					font-size: 18px;
+					font-weight: bold;
+				}
+
+				&:after {
+					content: '';
+					width: 50px;
+					border-bottom: 2px solid #31bad5;
+					position: absolute;
+					bottom: -10px;
+					right: 0;
+					left: 0;
+					display: block;
+					margin: 0 auto;
+					@include single-transition(all, 320ms);
+				}
+
+				&:hover:after {
+					width: 75px;
+				}
+			}
+
+			.widget-body {
+				.widget-list {
+					font-weight: bold;
+
+					.widget-list-item {
+
+						a {
+							color: #707070;
+							padding: 0 25px;
+							line-height: 30px;
+							position: relative;
+							display: block;
+
+
+							&:after {
+								content: '';
+								width: 10px;
+								border-bottom: 2px solid #31bad5;
+								position: absolute;
+								bottom: -3px;
+								right: 25px;
+								@include single-transition(all, 320ms);
+							}
+
+							&:hover:after {
+								width: 30px;
+
+							}
+							
+						}
+
+						.list-nested {
+							font-weight: normal;
+
+							li {
+								a {
+									&:before {
+										content: $do0k-keyboard_arrow_left;
+										font-family: $icomoon-font-family;
+										font-size: 20px;
+										vertical-align: top;
+									}
+
+									&:after {
+										right: 32px;
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}

@@ -46789,43 +46789,116 @@ body .content .postBox .card-action .btn-more {
 body .content .postBox .card-action .btn-more i {
   vertical-align: -5px;
 }
-/* line 389, ../scss/tarabnak.scss */
+/* line 390, ../scss/tarabnak.scss */
 body .sidebar .widgetbox {
   border-radius: 25px;
   background-color: #ffffff;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
   overflow: hidden;
+  padding: 15px 0;
 }
-/* line 395, ../scss/tarabnak.scss */
-body .sidebar .widgetbox .list-nested {
-  list-style: disc;
-  padding-right: 15px;
+/* line 397, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .title-widget {
+  font-size: 16px;
+  color: #707070;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 25px;
+  -moz-transition: all 320ms;
+  -o-transition: all 320ms;
+  -webkit-transition: all 320ms;
+  transition: all 320ms;
 }
-/* line 399, ../scss/tarabnak.scss */
-body .sidebar .widgetbox .list-nested li {
-  list-style-type: disc;
+/* line 405, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .title-widget h4 {
+  font-size: 18px;
+  font-weight: bold;
 }
-/* line 406, ../scss/tarabnak.scss */
+/* line 410, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .title-widget:after {
+  content: '';
+  width: 50px;
+  border-bottom: 2px solid #31bad5;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  left: 0;
+  display: block;
+  margin: 0 auto;
+  -moz-transition: all 320ms;
+  -o-transition: all 320ms;
+  -webkit-transition: all 320ms;
+  transition: all 320ms;
+}
+/* line 423, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .title-widget:hover:after {
+  width: 75px;
+}
+/* line 429, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .widget-body .widget-list {
+  font-weight: bold;
+}
+/* line 434, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a {
+  color: #707070;
+  padding: 0 25px;
+  line-height: 30px;
+  position: relative;
+  display: block;
+}
+/* line 442, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a:after {
+  content: '';
+  width: 10px;
+  border-bottom: 2px solid #31bad5;
+  position: absolute;
+  bottom: -3px;
+  right: 25px;
+  -moz-transition: all 320ms;
+  -o-transition: all 320ms;
+  -webkit-transition: all 320ms;
+  transition: all 320ms;
+}
+/* line 452, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a:hover:after {
+  width: 30px;
+}
+/* line 459, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .widget-body .widget-list .widget-list-item .list-nested {
+  font-weight: normal;
+}
+/* line 464, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .widget-body .widget-list .widget-list-item .list-nested li a:before {
+  content: "";
+  font-family: "do0k";
+  font-size: 20px;
+  vertical-align: top;
+}
+/* line 471, ../scss/tarabnak.scss */
+body .sidebar .widgetbox .widget-body .widget-list .widget-list-item .list-nested li a:after {
+  right: 32px;
+}
+/* line 483, ../scss/tarabnak.scss */
 body .pagination {
   font-size: 14px;
 }
-/* line 409, ../scss/tarabnak.scss */
+/* line 486, ../scss/tarabnak.scss */
 body .pagination li {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
 }
-/* line 416, ../scss/tarabnak.scss */
+/* line 493, ../scss/tarabnak.scss */
 body .pagination li.page-nav.next-page a {
   padding-left: 5px;
   padding-right: 15px;
 }
-/* line 423, ../scss/tarabnak.scss */
+/* line 500, ../scss/tarabnak.scss */
 body .pagination li.page-nav.last-page a {
   padding-right: 5px;
   padding-left: 15px;
 }
-/* line 429, ../scss/tarabnak.scss */
+/* line 506, ../scss/tarabnak.scss */
 body .pagination li.page-nav a {
   border-radius: 25px;
   line-height: 26px;
@@ -46834,18 +46907,18 @@ body .pagination li.page-nav a {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 434, ../scss/tarabnak.scss */
+/* line 511, ../scss/tarabnak.scss */
 body .pagination li.page-nav a:hover {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   border: solid 1px #31bad5;
 }
-/* line 440, ../scss/tarabnak.scss */
+/* line 517, ../scss/tarabnak.scss */
 body .pagination li.page-nav a i {
   vertical-align: -9px;
   font-size: 1.5rem;
 }
-/* line 447, ../scss/tarabnak.scss */
+/* line 524, ../scss/tarabnak.scss */
 body .pagination li a {
   font-size: 14px;
   color: #707070;
@@ -46853,18 +46926,18 @@ body .pagination li a {
   line-height: 30px;
   height: 30px;
 }
-/* line 455, ../scss/tarabnak.scss */
+/* line 532, ../scss/tarabnak.scss */
 body .pagination li.active {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   border: solid 1px #31bad5;
 }
-/* line 460, ../scss/tarabnak.scss */
+/* line 537, ../scss/tarabnak.scss */
 body .pagination li.active a {
   color: #707070;
   min-width: 28px;
 }
-/* line 468, ../scss/tarabnak.scss */
+/* line 545, ../scss/tarabnak.scss */
 body footer {
   background-color: #31bad5;
   color: #FFFFFF;
