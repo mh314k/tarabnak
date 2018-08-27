@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de2b6ab-a3af-40c3-8e22-c68f83cab72a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/178a1d18c9c670d3d094d98bdd21b9f83618fce0/tarabnak.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/178a1d18c9c670d3d094d98bdd21b9f83618fce0/tarabnak.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/tarabnak.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/tarabnak.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/tarabnak.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/tarabnak.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/includes/Paginator.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/Paginator.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +34,7 @@
           <entry key="html" value="4" />
           <entry key="py" value="3" />
           <entry key="rb" value="2" />
-          <entry key="scss" value="6" />
+          <entry key="scss" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -41,23 +43,23 @@
           <entry key="HTML" value="4" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="3" />
-          <entry key="SCSS" value="6" />
+          <entry key="SCSS" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="807" />
+          <entry key="html" value="1201" />
           <entry key="py" value="21" />
           <entry key="rb" value="82" />
-          <entry key="scss" value="501" />
+          <entry key="scss" value="706" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="807" />
+          <entry key="HTML" value="1201" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="Python" value="21" />
-          <entry key="SCSS" value="501" />
+          <entry key="SCSS" value="706" />
         </counts>
       </usages-collector>
     </session>
@@ -118,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/includes/Paginator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state>
+              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -140,7 +142,24 @@
         <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1086">
-              <caret line="327" selection-start-line="327" selection-end-line="327" />
+              <caret line="404" column="36" selection-start-line="404" selection-start-column="36" selection-end-line="404" selection-end-column="36" />
+              <folding>
+                <element signature="e#494#514#0" />
+                <element signature="e#524#589#0" />
+                <element signature="e#596#2272#0" />
+                <element signature="e#2288#4026#0" />
+                <element signature="e#4039#4698#0" />
+                <element signature="e#4710#5120#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/scss/tarabnak/_helpers.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -157,11 +176,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="1176">
+              <caret line="48" column="155" selection-start-line="48" selection-start-column="155" selection-end-line="48" selection-end-column="155" />
+              <folding>
+                <element signature="e#1690#1696#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,19 +212,20 @@
         <option value="$PROJECT_DIR$/static/scss/tarabnak/_fonts.scss" />
         <option value="$PROJECT_DIR$/static/scss/tarabnak/_helpers.scss" />
         <option value="$PROJECT_DIR$/static/scss/do0kFonts/style.scss" />
-        <option value="$PROJECT_DIR$/static/scss/tarabnak.scss" />
         <option value="$PROJECT_DIR$/tarabnak/settings.py" />
         <option value="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" />
         <option value="$PROJECT_DIR$/templates/blog/BlogIndex.html" />
         <option value="$PROJECT_DIR$/templates/blog/BlogPost.html" />
         <option value="$PROJECT_DIR$/templates/blog/BlogTagList.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/blog/includes/Comments.html" />
         <option value="$PROJECT_DIR$/templates/blog/includes/Commentreplies.html" />
         <option value="$PROJECT_DIR$/templates/blog/includes/Post.html" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
+        <option value="$PROJECT_DIR$/static/scss/tarabnak.scss" />
+        <option value="$PROJECT_DIR$/templates/blog/includes/Paginator.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
@@ -360,16 +383,24 @@
       <option name="project" value="LOCAL" />
       <updated>1535290129608</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1535340636935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535340636935</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11974000" />
+    <option name="totallyTimeSpent" value="15267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="90" y="42" width="3750" height="2118" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12315674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12315674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -378,13 +409,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49898168" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49898168" weight="0.32834166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NativeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32063493" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32057682" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50101835" side_tool="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="10" sideWeight="0.49898168" weight="0.32857144" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49898168" weight="0.32857144" />
@@ -527,7 +558,8 @@
     <MESSAGE value="commit for the pouria sake lol 2" />
     <MESSAGE value="commit for the pouria sake lol 3" />
     <MESSAGE value="reformating commenting system" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformating commenting system" />
+    <MESSAGE value="Merge remote-tracking branch 'origin'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/config.rb" />
@@ -569,13 +601,6 @@
     <entry file="file://$PROJECT_DIR$/static/fonts/do0k.eot">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/tarabnak/_helpers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/do0kFonts/variables.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -583,13 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1086">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
         </state>
       </provider>
     </entry>
@@ -617,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -727,6 +738,45 @@
             <Category>Fields</Category>
           </Categories>
           <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/tarabnak/_helpers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1086">
+          <caret line="404" column="36" selection-start-line="404" selection-start-column="36" selection-end-line="404" selection-end-column="36" />
+          <folding>
+            <element signature="e#494#514#0" />
+            <element signature="e#524#589#0" />
+            <element signature="e#596#2272#0" />
+            <element signature="e#2288#4026#0" />
+            <element signature="e#4039#4698#0" />
+            <element signature="e#4710#5120#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/includes/Paginator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="48" column="155" selection-start-line="48" selection-start-column="155" selection-end-line="48" selection-end-column="155" />
+          <folding>
+            <element signature="e#1690#1696#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

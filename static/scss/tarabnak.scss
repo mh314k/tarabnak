@@ -19,6 +19,7 @@ body {
 	font-family: isans, Montserrat;
 	background: #fafafa;
 	font-size: 14px;
+
 	.sidenav-overlay {
 		z-index: 996;
 	}
@@ -368,6 +369,48 @@ body {
 			}
 
 		}
+	}
+
+	.pagination {
+		font-size: 14px;
+
+		li {
+			-webkit-border-radius: 25px;
+			-moz-border-radius: 25px;
+			border-radius: 25px;
+
+			&.page-nav {
+				a {
+					i {
+						vertical-align: -11px;
+					}
+				}
+			}
+
+			a {
+				font-size: 14px;
+				color: #707070;
+				min-width: 30px;
+				line-height: 30px;
+				height: 30px;
+			}
+
+			&.active {
+				box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+				background-color: #ffffff;
+				border: solid 1px #31bad5;
+
+				a {
+					color: #707070;
+					min-width: 28px;
+				}
+			}
+		}
+	}
+
+	footer {
+		background-color: #31bad5;
+		color: #FFFFFF;
 	}
 
 }
