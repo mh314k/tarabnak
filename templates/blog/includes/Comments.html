@@ -1,7 +1,7 @@
 {% load jformat %}
 
 <h4>{{ Comment.CommenterName }} نظر داد:</h4>
-<p>{{ Comment.CommentTime|jformat:"%A %d %B %Y %H:%M" }}</p>
+<p>{{ Comment.CommentTime|jformat:"%A %d %B %Y" }}</p>
 <p>{{ Comment.CommentBody|safe }}</p>
 {% for Reply in Comment.REPLIES.all %}
 <div>

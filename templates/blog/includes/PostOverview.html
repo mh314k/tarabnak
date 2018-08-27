@@ -4,36 +4,43 @@
 {% for post in Posts %}
 	<div class="postBox card horizontal">
 		<div class="card-image postImg">
-            {% if post.Image %}
-                <img src="{{ post.Image.url }}" alt="{{ post.Title }}">
-            {% endif %}
-            {% if not post.Image %}
-                <img src="{% static "img/97800.jpg" %}" alt="{{ post.Title }}">
-            {% endif %}
+			{% if post.Image %}
+				<img src="{{ post.Image.url }}" alt="{{ post.Title }}">
+			{% endif %}
+			{% if not post.Image %}
+				<img src="{% static "img/97800.jpg" %}" alt="{{ post.Title }}">
+			{% endif %}
 		</div>
 		<div class="card-stacked">
 			<div class="card-content">
 				<a href="{% url 'blog:post' post.PublishTime.year post.PublishTime.month post.PublishTime.day post.Slug %}">
 					<h4 class="iryekan mg-t-0">{{ post.Title }}</h4>
 				</a>
-
-				<span class="meta-data right-align">
-					<i class="do0k-calendar9 right"></i>
-					{{ post.PublishTime|jformat:"%A %d %B %Y %H:%M" }}</span>
-				<span class="meta-data right-align">
-					<i class="do0k-comments2 right"></i>
-					{{ post.COMMENTS.count }} دیدگاه
-				</span>
 				<p>{{ post.Body|truncatewords:50|safe }}</p>
-				<p>
-					{% for tag in  post.Tags.all %}
-						{% if not forloop.last %}
-							<a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>,
-						{% else %}
-							<a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>
-						{% endif %}
-					{% endfor %}
-				</p>
+				{#				<p>#}
+				{#					{% for tag in  post.Tags.all %}#}
+				{#						{% if not forloop.last %}#}
+				{#							<a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>,#}
+				{#						{% else %}#}
+				{#							<a href="{% url 'blog:tag' tag.name %}">{{ tag.name }}</a>#}
+				{#						{% endif %}#}
+				{#					{% endfor %}#}
+				{#				</p>#}
+			</div>
+
+			<div class="card-action">
+					<span class="meta-data right-align">
+					<i class="do0k-calendar9 right mg-l-5"></i>
+						{{ post.PublishTime|jformat:"%A %d %B %Y" }}</span>
+				<span class="meta-data right-align">
+					<i class="do0k-comments2 right mg-l-5"></i>
+					{{ post.COMMENTS.count }}     دیدگاه
+				</span>
+
+				<a href="{% url 'blog:post' post.PublishTime.year post.PublishTime.month post.PublishTime.day post.Slug %}" class="btn waves-effect btn-more left waves-light hoverable">
+					ادامه مطلب
+					<i class="do0k-circle-left"></i>
+				</a>
 			</div>
 		</div>
 	</div>
