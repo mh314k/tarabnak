@@ -1,18 +1,44 @@
 from django.db import models
 from django.contrib.auth.models import User
 from taggit.managers import TaggableManager
+
+
 # Create your models here.
 
 def user_directory_path(instance, filename):
     # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
     return 'user_{0}/{1}'.format(instance.Author.id, filename)
 
+class Category(models.Model):
+    Name = models.CharField(max_length=200,
+                            verbose_name="نام دسته")
+    Slug = models.SlugField(max_length=200,
+                            unique=True,
+                            verbose_name='نشانک دسته')
+    Parent = models.ForeignKey('self',
+                               related_name='CHILDS',
+                               on_delete=models.CASCADE,
+                               null=True,
+                               blank=True,
+                               verbose_name='دسته والد')
+    class Meta:
+        verbose_name = "دسته"
+        verbose_name_plural = 'دسته ها'
+        ordering = ['Name']
+
+    def __str__(self):
+        return "{}".format(self.Name)
+
+
+
+
+
 class Post(models.Model):
     stsChoice = (
-        ('P','منتشر شده'),
-        ('D','پیشنویس')
+        ('P', 'منتشر شده'),
+        ('D', 'پیشنویس')
     )
-    Title = models.CharField(max_length=180,
+    Title = models.CharField(max_length=200,
                              verbose_name='عنوان پست')
     Slug = models.SlugField(unique_for_date="PublishTime",
                             verbose_name='نشانک پست')
@@ -36,6 +62,11 @@ class Post(models.Model):
                               upload_to=user_directory_path,
                               null=True,
                               blank=True)
+    Categories = models.ManyToManyField(Category,
+                                        related_name='POSTS',
+                                        null=True,
+                                        blank=True,
+                                        verbose_name='دسته ها')
 
     class Meta:
         verbose_name = "پست"
@@ -43,12 +74,14 @@ class Post(models.Model):
         ordering = ['-PublishTime']
 
     def __str__(self):
-        return "{} نوشته شده توسط {} {}({})".format(self.Title,self.Author.first_name, self.Author.last_name,self.Author.username)
+        return "{} نوشته شده توسط {} {}({})".format(self.Title, self.Author.first_name, self.Author.last_name,
+                                                    self.Author.username)
+
 
 class Comment(models.Model):
-    acptChoices = (('A','تایید شده'),
-                   ('N','تایید نشده'),
-                   ('D','رد شده'))
+    acptChoices = (('A', 'تایید شده'),
+                   ('N', 'تایید نشده'),
+                   ('D', 'رد شده'))
     CommentStatus = models.CharField(max_length=1,
                                      verbose_name='وضعیت نظر',
                                      choices=acptChoices,
@@ -85,6 +118,6 @@ class Comment(models.Model):
         ordering = ['-CommentTime']
 
     def __str__(self):
-        return "نظر توسط {} برای {}".format(self.CommenterName,self.PostTo.Title)
+        return "نظر توسط {} برای {}".format(self.CommenterName, self.PostTo.Title)
 
-#class Category
+
