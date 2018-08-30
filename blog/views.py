@@ -53,4 +53,4 @@ def catlistview(request, slug):
     except EmptyPage:
         Posts=paginator.get_page(1)
     return render(request, 'blog/BlogTagList.html',
-                  context={'Posts':Posts, 'cat':slug, 'paginator':paginator})
+                  context={'Posts':Posts, 'cat':cat.Name, 'paginator':paginator})
