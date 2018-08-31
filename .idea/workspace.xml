@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de2b6ab-a3af-40c3-8e22-c68f83cab72a" name="Default Changelist" comment="Merge remote-tracking branch 'origin'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.sass-cache/178a1d18c9c670d3d094d98bdd21b9f83618fce0/tarabnak.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/178a1d18c9c670d3d094d98bdd21b9f83618fce0/tarabnak.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/tarabnak.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/tarabnak.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/tarabnak.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/tarabnak.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/BlogTagList.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/BlogTagList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,20 +46,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1894" />
+          <entry key="html" value="1895" />
           <entry key="js" value="57" />
           <entry key="py" value="21" />
           <entry key="rb" value="82" />
-          <entry key="scss" value="2569" />
+          <entry key="scss" value="2593" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1894" />
+          <entry key="HTML" value="1895" />
           <entry key="JavaScript" value="57" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="Python" value="21" />
-          <entry key="SCSS" value="2569" />
+          <entry key="SCSS" value="2593" />
         </counts>
       </usages-collector>
     </session>
@@ -109,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1659">
-              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+            <state relative-caret-position="546">
+              <caret line="95" column="26" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="95" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -124,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2006">
-              <caret line="313" column="4" selection-start-line="313" selection-start-column="4" selection-end-line="313" selection-end-column="4" />
+            <state relative-caret-position="359">
+              <caret line="372" column="38" selection-start-line="372" selection-start-column="38" selection-end-line="372" selection-end-column="38" />
               <folding>
                 <element signature="e#614#2290#0" />
                 <element signature="e#2306#4044#0" />
@@ -142,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/BlogTagList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="450">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -245,9 +241,9 @@
         <option value="$PROJECT_DIR$/static/scss/tarabnak/_animate.scss" />
         <option value="$PROJECT_DIR$/static/js/tarabnak.js" />
         <option value="$PROJECT_DIR$/templates/blog/BlogIndex.html" />
+        <option value="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" />
         <option value="$PROJECT_DIR$/static/scss/tarabnak.scss" />
         <option value="$PROJECT_DIR$/templates/blog/BlogTagList.html" />
-        <option value="$PROJECT_DIR$/templates/blog/includes/PostOverview.html" />
       </list>
     </option>
   </component>
@@ -360,7 +356,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535711882825" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535712367349" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -474,13 +470,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40799000" />
+    <option name="totallyTimeSpent" value="41264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="90" y="42" width="3750" height="2118" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12315674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12315674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -495,7 +491,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NativeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32057682" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32057682" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50101835" side_tool="true" weight="0.32834166" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49898168" weight="0.5246811" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49898168" weight="0.32857144" />
@@ -911,20 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1659">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/BlogTagList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/includes/PostOverview.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -934,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/tarabnak.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2006">
-          <caret line="313" column="4" selection-start-line="313" selection-start-column="4" selection-end-line="313" selection-end-column="4" />
+        <state relative-caret-position="359">
+          <caret line="372" column="38" selection-start-line="372" selection-start-column="38" selection-end-line="372" selection-end-column="38" />
           <folding>
             <element signature="e#614#2290#0" />
             <element signature="e#2306#4044#0" />
@@ -945,6 +927,20 @@
             <element signature="e#8068#9018#0" />
             <element signature="e#9028#9079#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/BlogIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="95" column="26" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/BlogTagList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>

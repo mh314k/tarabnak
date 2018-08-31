@@ -7,15 +7,20 @@
 
 {% block content %}
     <div class="container">
-	    <h3 class="iryekan mg-t-15 mg-b-15">
-		    {% if tag %}
-			    تگ مورد نظر شما: {{ tag }}
-		    {% endif %}
-		    {% if cat %}
-			    دسته مورد نظر شما: {{ cat }}
-		    {% endif %}
-	    </h3>
+
+
 	    <div class="content">
+		    <div class="title-content mg-b-30 mg-t-50">
+			    <h3 class="iryekan mg-t-15 mg-b-15">
+				    {% if tag %}
+					    تگ مورد نظر شما: {{ tag }}
+				    {% endif %}
+				    {% if cat %}
+					    دسته مورد نظر شما: {{ cat }}
+				    {% endif %}
+			    </h3>
+		    </div>
+
 		    {% include 'blog/includes/PostOverview.html' %}
 	    </div>
 
