@@ -10776,6 +10776,11 @@ IranYekan Font attach
   color: #000;
 }
 
+/* line 60, ../scss/tarabnak/_helpers.scss */
+.container {
+  width: 90% !important;
+}
+
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.7.0
@@ -50307,7 +50312,7 @@ body .content .postBox .card-action .btn-more {
 body .content .postBox .card-action .btn-more i {
   vertical-align: -5px;
 }
-/* line 417, ../scss/tarabnak.scss */
+/* line 415, ../scss/tarabnak.scss */
 body .sidebar .widgetbox {
   border-radius: 25px;
   background-color: #ffffff;
@@ -50315,7 +50320,7 @@ body .sidebar .widgetbox {
   overflow: hidden;
   padding: 15px 0;
 }
-/* line 424, ../scss/tarabnak.scss */
+/* line 422, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .title-widget {
   font-size: 16px;
   color: #707070;
@@ -50327,12 +50332,12 @@ body .sidebar .widgetbox .title-widget {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 432, ../scss/tarabnak.scss */
+/* line 430, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .title-widget h4 {
   font-size: 18px;
   font-weight: bold;
 }
-/* line 437, ../scss/tarabnak.scss */
+/* line 435, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .title-widget:after {
   content: '';
   width: 50px;
@@ -50348,15 +50353,15 @@ body .sidebar .widgetbox .title-widget:after {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 450, ../scss/tarabnak.scss */
+/* line 448, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .title-widget:hover:after {
   width: 75px;
 }
-/* line 456, ../scss/tarabnak.scss */
+/* line 454, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list {
   font-weight: bold;
 }
-/* line 461, ../scss/tarabnak.scss */
+/* line 459, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a {
   color: #707070;
   padding: 0 25px;
@@ -50364,7 +50369,7 @@ body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a {
   position: relative;
   display: block;
 }
-/* line 469, ../scss/tarabnak.scss */
+/* line 467, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a:after {
   content: '';
   width: 10px;
@@ -50377,46 +50382,46 @@ body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a:after {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 479, ../scss/tarabnak.scss */
+/* line 477, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a:hover:after {
   width: 30px;
 }
-/* line 486, ../scss/tarabnak.scss */
+/* line 484, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item .list-nested {
   font-weight: normal;
 }
-/* line 491, ../scss/tarabnak.scss */
+/* line 489, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item .list-nested li a:before {
   content: "";
   font-family: "do0k";
   font-size: 20px;
   vertical-align: top;
 }
-/* line 498, ../scss/tarabnak.scss */
+/* line 496, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item .list-nested li a:after {
   right: 32px;
 }
-/* line 510, ../scss/tarabnak.scss */
+/* line 508, ../scss/tarabnak.scss */
 body .pagination {
   font-size: 14px;
 }
-/* line 513, ../scss/tarabnak.scss */
+/* line 511, ../scss/tarabnak.scss */
 body .pagination li {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
 }
-/* line 520, ../scss/tarabnak.scss */
+/* line 518, ../scss/tarabnak.scss */
 body .pagination li.page-nav.next-page a {
   padding-left: 5px;
   padding-right: 15px;
 }
-/* line 527, ../scss/tarabnak.scss */
+/* line 525, ../scss/tarabnak.scss */
 body .pagination li.page-nav.last-page a {
   padding-right: 5px;
   padding-left: 15px;
 }
-/* line 533, ../scss/tarabnak.scss */
+/* line 531, ../scss/tarabnak.scss */
 body .pagination li.page-nav a {
   border-radius: 25px;
   line-height: 26px;
@@ -50425,18 +50430,18 @@ body .pagination li.page-nav a {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 538, ../scss/tarabnak.scss */
+/* line 536, ../scss/tarabnak.scss */
 body .pagination li.page-nav a:hover {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   border: solid 1px #31bad5;
 }
-/* line 544, ../scss/tarabnak.scss */
+/* line 542, ../scss/tarabnak.scss */
 body .pagination li.page-nav a i {
   vertical-align: -9px;
   font-size: 1.5rem;
 }
-/* line 551, ../scss/tarabnak.scss */
+/* line 549, ../scss/tarabnak.scss */
 body .pagination li a {
   font-size: 14px;
   color: #707070;
@@ -50444,18 +50449,18 @@ body .pagination li a {
   line-height: 30px;
   height: 30px;
 }
-/* line 559, ../scss/tarabnak.scss */
+/* line 557, ../scss/tarabnak.scss */
 body .pagination li.active {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   border: solid 1px #31bad5;
 }
-/* line 564, ../scss/tarabnak.scss */
+/* line 562, ../scss/tarabnak.scss */
 body .pagination li.active a {
   color: #707070;
   min-width: 28px;
 }
-/* line 572, ../scss/tarabnak.scss */
+/* line 570, ../scss/tarabnak.scss */
 body footer {
   background-color: #31bad5;
   color: #FFFFFF;
