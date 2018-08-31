@@ -6,20 +6,24 @@
 
 
 {% block content %}
-    <h3 class="iryekan mg-t-15 mg-b-15">
-    {% if tag %}
-    تگ مورد نظر شما: {{ tag }}
-    {% endif %}
-    {% if cat %}
-    دسته مورد نظر شما: {{ cat }}
-    {% endif %}
-    </h3>
-    {% include 'blog/includes/PostOverview.html' %}
+    <div class="container">
+	    <h3 class="iryekan mg-t-15 mg-b-15">
+		    {% if tag %}
+			    تگ مورد نظر شما: {{ tag }}
+		    {% endif %}
+		    {% if cat %}
+			    دسته مورد نظر شما: {{ cat }}
+		    {% endif %}
+	    </h3>
+	    <div class="content">
+		    {% include 'blog/includes/PostOverview.html' %}
+	    </div>
 
-    {% if paginator.num_pages > 1 %}
+	    {% if paginator.num_pages > 1 %}
 
-        {% include 'blog/includes/Paginator.html' %}
+		    {% include 'blog/includes/Paginator.html' %}
 
-    {% endif %}
+	    {% endif %}
+    </div>
 
 {% endblock %}

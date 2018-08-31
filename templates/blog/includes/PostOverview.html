@@ -16,7 +16,9 @@
 				<a href="{% url 'blog:post' post.PublishTime.year post.PublishTime.month post.PublishTime.day post.Slug %}">
 					<h4 class="iryekan mg-t-0">{{ post.Title }}</h4>
 				</a>
-				<p>{{ post.Body|truncatewords:50|safe }}</p>
+				<div class="postBody">
+					<p>{{ post.Body|truncatewords:50|safe }}</p>
+				</div>
 				{#				<p>#}
 				{#					{% for tag in  post.Tags.all %}#}
 				{#						{% if not forloop.last %}#}

@@ -156,10 +156,11 @@ body {
 					position: absolute;
 					right: 0;
 					bottom: 35%;
-					background-color: rgba(0, 0, 0, .6);
+					background-color: rgba(0, 0, 0, .5);
 					max-width:550px;
 					color: #FFFFFF;
-					padding: 20px 35px;
+					padding: 20px 35px 20px 20px;
+					@include border-left-radius(25px);
 
 					h4 {
 						font-size: 20px;
@@ -260,7 +261,7 @@ body {
 		border-radius: 25px;
 		background-color: #ffffff;
 		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
-		padding: 25px 100px 35px;
+		padding: 30px 100px 35px;
 
 		.row {
 			margin-bottom: 0;
@@ -273,12 +274,14 @@ body {
 		}
 
 		.intro-text {
-			margin-right: 70px;
-			font-size: 16px;
+			margin-right: 20px;
+			font-size: 14px;
 			vertical-align: middle;
 			display: inline-block;
 			text-align: justify;
 			line-height: 30px;
+			font-weight: bold;
+			margin-bottom: 15px;
 		}
 
 		.btn-blog {
@@ -364,6 +367,10 @@ body {
 						font-size: 16px;
 						font-weight: bold;
 					}
+				}
+
+				.postBody {
+					min-height: 100px;
 				}
 			}
 
