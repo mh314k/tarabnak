@@ -30,11 +30,11 @@
 
 			<div class="card-action">
 					<span class="meta-data right-align">
-					<i class="do0k-calendar9 right mg-l-5"></i>
-						{{ post.PublishTime|jformat:"%A %d %B %Y" }}</span>
+					<i class="do0k-calendar9 right mg-l-5"></i>{{ post.PublishTime|jformat:"%A %d %B %Y" }}
+						</span>
 				<span class="meta-data right-align">
-					<i class="do0k-comments2 right mg-l-5"></i>
-					{{ post.COMMENTS.count }}     دیدگاه
+					<i class="do0k-comments2 right mg-l-5"></i>					{{ post.COMMENTS.count }}     دیدگاه
+
 				</span>
 
 				<a href="{% url 'blog:post' post.PublishTime.year post.PublishTime.month post.PublishTime.day post.Slug %}" class="btn waves-effect btn-more left waves-light hoverable">

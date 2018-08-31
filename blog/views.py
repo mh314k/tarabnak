@@ -40,3 +40,17 @@ def postView(request,year,month,day,slug):
                   template_name='blog/BlogPost.html',
                   context={'Post':post, 'Comments':comments})
     pass
+
+def catlistview(request, slug):
+    cat= get_object_or_404(Category,Slug=slug)
+    Posts=Post.objects.filter(Categories__in=[cat])
+    paginator = Paginator(Posts,2)
+    page = request.GET.get('page')
+    try:
+        Posts = paginator.get_page(page)
+    except PageNotAnInteger:
+        Posts=paginator.get_page(paginator.num_pages)
+    except EmptyPage:
+        Posts=paginator.get_page(1)
+    return render(request, 'blog/BlogTagList.html',
+                  context={'Posts':Posts, 'cat':cat.Name, 'paginator':paginator})

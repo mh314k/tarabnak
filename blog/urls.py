@@ -14,5 +14,7 @@ urlpatterns = [
     path('<int:year>/<int:month>/<int:day>/<str:slug>',
          postView,
          name='post'),
-
+    path('cat/<str:slug>',
+         catlistview,
+         name='categories'),
 ]

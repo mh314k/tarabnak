@@ -13,6 +13,8 @@ $(document).ready(function(){
 		dots: true,
 		autoplay: true,
 		autoplayTimeout: 15000,
+		animateIn: 'fadeIn',
+		animateOut: 'fadeOut',
 		navContainer: $('.navSlider > .owl-navs'),
 		dotsContainer: $('.navSlider > .owl-dots'),
 		navText: ["<i class='material-icons'>arrow_forward</i>", "<i class='material-icons'>arrow_back</i>"],

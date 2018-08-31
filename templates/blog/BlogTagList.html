@@ -6,7 +6,14 @@
 
 
 {% block content %}
-
+    <h3 class="iryekan mg-t-15 mg-b-15">
+    {% if tag %}
+    تگ مورد نظر شما: {{ tag }}
+    {% endif %}
+    {% if cat %}
+    دسته مورد نظر شما: {{ cat }}
+    {% endif %}
+    </h3>
     {% include 'blog/includes/PostOverview.html' %}
 
     {% if paginator.num_pages > 1 %}

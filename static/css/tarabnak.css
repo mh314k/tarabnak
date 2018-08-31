@@ -10517,6 +10517,265 @@ IranYekan Font attach
   padding-right: 100px;
 }
 
+/* line 21, ../scss/tarabnak/_helpers.scss */
+.btn-outline {
+  background-color: transparent;
+  line-height: 33px;
+}
+/* line 24, ../scss/tarabnak/_helpers.scss */
+.btn-outline i {
+  vertical-align: middle;
+}
+
+/* line 29, ../scss/tarabnak/_helpers.scss */
+.btn-rounded {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-materialize-red {
+  border: 1px solid #e51c23;
+  color: #e51c23;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-materialize-red:hover {
+  background-color: #e51c23;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-red {
+  border: 1px solid #F44336;
+  color: #F44336;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-red:hover {
+  background-color: #F44336;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-pink {
+  border: 1px solid #e91e63;
+  color: #e91e63;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-pink:hover {
+  background-color: #e91e63;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-purple {
+  border: 1px solid #9c27b0;
+  color: #9c27b0;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-purple:hover {
+  background-color: #9c27b0;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-deep-purple {
+  border: 1px solid #673ab7;
+  color: #673ab7;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-deep-purple:hover {
+  background-color: #673ab7;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-indigo {
+  border: 1px solid #3f51b5;
+  color: #3f51b5;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-indigo:hover {
+  background-color: #3f51b5;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-blue {
+  border: 1px solid #2196F3;
+  color: #2196F3;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-blue:hover {
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-light-blue {
+  border: 1px solid #03a9f4;
+  color: #03a9f4;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-light-blue:hover {
+  background-color: #03a9f4;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-cyan {
+  border: 1px solid #00bcd4;
+  color: #00bcd4;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-cyan:hover {
+  background-color: #00bcd4;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-teal {
+  border: 1px solid #009688;
+  color: #009688;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-teal:hover {
+  background-color: #009688;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-green {
+  border: 1px solid #4CAF50;
+  color: #4CAF50;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-green:hover {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-light-green {
+  border: 1px solid #8bc34a;
+  color: #8bc34a;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-light-green:hover {
+  background-color: #8bc34a;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-lime {
+  border: 1px solid #cddc39;
+  color: #cddc39;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-lime:hover {
+  background-color: #cddc39;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-yellow {
+  border: 1px solid #ffeb3b;
+  color: #ffeb3b;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-yellow:hover {
+  background-color: #ffeb3b;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-amber {
+  border: 1px solid #ffc107;
+  color: #ffc107;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-amber:hover {
+  background-color: #ffc107;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-orange {
+  border: 1px solid #ff9800;
+  color: #ff9800;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-orange:hover {
+  background-color: #ff9800;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-deep-orange {
+  border: 1px solid #ff5722;
+  color: #ff5722;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-deep-orange:hover {
+  background-color: #ff5722;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-brown {
+  border: 1px solid #795548;
+  color: #795548;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-brown:hover {
+  background-color: #795548;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-blue-grey {
+  border: 1px solid #607d8b;
+  color: #607d8b;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-blue-grey:hover {
+  background-color: #607d8b;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-grey {
+  border: 1px solid #9e9e9e;
+  color: #9e9e9e;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-grey:hover {
+  background-color: #9e9e9e;
+  color: #FFFFFF;
+}
+
+/* line 39, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-shades {
+  border: 1px solid  #000000;
+  color:  #000000;
+}
+/* line 43, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-shades:hover {
+  background-color:  #000000;
+  color: #FFFFFF;
+}
+
+/* line 50, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-white {
+  border: 1px solid #ffffff;
+  color: #FFFFFF;
+}
+/* line 54, ../scss/tarabnak/_helpers.scss */
+.btn-outline.btn-white:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
 @font-face {
   font-family: "do0k";
   src: url("fonts/do0k.eot?7mrke8");
@@ -46389,55 +46648,55 @@ IranYekan Font attach
   content: "ﲭ";
 }
 
-/* line 14, ../scss/tarabnak.scss */
+/* line 15, ../scss/tarabnak.scss */
 .p-static {
   position: static !important;
 }
 
-/* line 18, ../scss/tarabnak.scss */
+/* line 19, ../scss/tarabnak.scss */
 body {
   font-family: isans, Montserrat;
   background: #fafafa;
   font-size: 14px;
 }
-/* line 23, ../scss/tarabnak.scss */
+/* line 24, ../scss/tarabnak.scss */
 body .sidenav-overlay {
   z-index: 996;
 }
-/* line 27, ../scss/tarabnak.scss */
+/* line 28, ../scss/tarabnak.scss */
 body .space {
   width: 100%;
   clear: both;
   float: none;
   height: 50px;
 }
-/* line 34, ../scss/tarabnak.scss */
+/* line 35, ../scss/tarabnak.scss */
 body nav {
   background: #ffffff;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.3);
 }
-/* line 38, ../scss/tarabnak.scss */
+/* line 39, ../scss/tarabnak.scss */
 body nav .sidenav-trigger {
   float: left;
   color: #707070;
 }
-/* line 43, ../scss/tarabnak.scss */
+/* line 44, ../scss/tarabnak.scss */
 body nav a.brand-logo {
   color: #31bad5;
   margin-left: 30px;
 }
-/* line 48, ../scss/tarabnak.scss */
+/* line 49, ../scss/tarabnak.scss */
 body nav ul {
   height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* line 55, ../scss/tarabnak.scss */
+/* line 56, ../scss/tarabnak.scss */
 body nav ul li {
   line-height: 35px;
 }
-/* line 59, ../scss/tarabnak.scss */
+/* line 60, ../scss/tarabnak.scss */
 body nav ul li a {
   color: #707070;
   font-weight: bold;
@@ -46447,7 +46706,7 @@ body nav ul li a {
   margin-left: 15px;
   margin-right: 15px;
 }
-/* line 68, ../scss/tarabnak.scss */
+/* line 69, ../scss/tarabnak.scss */
 body nav ul li a:after {
   content: '';
   width: 100%;
@@ -46463,16 +46722,16 @@ body nav ul li a:after {
   -webkit-transition: all 150ms;
   transition: all 150ms;
 }
-/* line 80, ../scss/tarabnak.scss */
+/* line 81, ../scss/tarabnak.scss */
 body nav ul li a:hover {
   background: inherit;
 }
-/* line 83, ../scss/tarabnak.scss */
+/* line 84, ../scss/tarabnak.scss */
 body nav ul li a:hover:after {
   opacity: 1;
   bottom: 5px;
 }
-/* line 90, ../scss/tarabnak.scss */
+/* line 91, ../scss/tarabnak.scss */
 body nav .search-nav {
   width: 250px;
   height: 40px;
@@ -46486,11 +46745,11 @@ body nav .search-nav {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 100, ../scss/tarabnak.scss */
+/* line 101, ../scss/tarabnak.scss */
 body nav .search-nav:focus-within {
   box-shadow: 0 3px 10px 0 rgba(49, 186, 213, 0.64);
 }
-/* line 104, ../scss/tarabnak.scss */
+/* line 105, ../scss/tarabnak.scss */
 body nav .search-nav .search-txt {
   border: none;
   outline: none !important;
@@ -46501,11 +46760,11 @@ body nav .search-nav .search-txt {
   width: 100%;
   color: #707070;
 }
-/* line 114, ../scss/tarabnak.scss */
+/* line 115, ../scss/tarabnak.scss */
 body nav .search-nav .search-txt:focus + button {
   color: #707070;
 }
-/* line 119, ../scss/tarabnak.scss */
+/* line 120, ../scss/tarabnak.scss */
 body nav .search-nav button.btn-search {
   background: transparent;
   border: none;
@@ -46518,32 +46777,51 @@ body nav .search-nav button.btn-search {
   transition: all 320ms;
   cursor: pointer;
 }
-/* line 128, ../scss/tarabnak.scss */
+/* line 129, ../scss/tarabnak.scss */
 body nav .search-nav button.btn-search i {
   line-height: 40px;
   height: 40px;
 }
-/* line 136, ../scss/tarabnak.scss */
+/* line 137, ../scss/tarabnak.scss */
 body .sliderIndex {
   position: relative;
 }
-/* line 139, ../scss/tarabnak.scss */
+/* line 140, ../scss/tarabnak.scss */
 body .sliderIndex .mainSlider {
   width: 100%;
   height: 500px;
 }
-/* line 143, ../scss/tarabnak.scss */
+/* line 144, ../scss/tarabnak.scss */
 body .sliderIndex .mainSlider .slide {
   width: 100%;
   height: 500px;
   overflow: hidden;
+  position: relative;
 }
-/* line 148, ../scss/tarabnak.scss */
+/* line 150, ../scss/tarabnak.scss */
 body .sliderIndex .mainSlider .slide img {
   width: 100%;
   height: 100%;
 }
 /* line 155, ../scss/tarabnak.scss */
+body .sliderIndex .mainSlider .slide .caption {
+  position: absolute;
+  right: 0;
+  bottom: 35%;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 550px;
+  color: #FFFFFF;
+  padding: 20px 35px;
+}
+/* line 164, ../scss/tarabnak.scss */
+body .sliderIndex .mainSlider .slide .caption h4 {
+  font-size: 20px;
+}
+/* line 168, ../scss/tarabnak.scss */
+body .sliderIndex .mainSlider .slide .caption p {
+  text-align: justify;
+}
+/* line 175, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider {
   position: absolute;
   z-index: 2;
@@ -46560,11 +46838,11 @@ body .sliderIndex .navSlider {
   border-radius: 5px;
   padding: 5px 10px;
 }
-/* line 169, ../scss/tarabnak.scss */
+/* line 189, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider .owl-navs {
   display: inline-block;
 }
-/* line 172, ../scss/tarabnak.scss */
+/* line 192, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider .owl-navs button {
   display: inline-block;
   cursor: pointer;
@@ -46584,20 +46862,20 @@ body .sliderIndex .navSlider .owl-navs button {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 186, ../scss/tarabnak.scss */
+/* line 206, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider .owl-navs button:hover {
   background: #31bad5;
   color: #ffffff;
 }
-/* line 191, ../scss/tarabnak.scss */
+/* line 211, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider .owl-navs button.owl-prev {
   right: 5px;
 }
-/* line 195, ../scss/tarabnak.scss */
+/* line 215, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider .owl-navs button.owl-next {
   left: 5px;
 }
-/* line 199, ../scss/tarabnak.scss */
+/* line 219, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider .owl-navs button i {
   font-size: 14px;
   display: flex;
@@ -46605,7 +46883,7 @@ body .sliderIndex .navSlider .owl-navs button i {
   justify-content: center;
   font-weight: bold;
 }
-/* line 209, ../scss/tarabnak.scss */
+/* line 229, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider .owl-dots {
   display: inline-block;
   position: absolute;
@@ -46614,7 +46892,7 @@ body .sliderIndex .navSlider .owl-dots {
   margin: 0 auto;
   text-align: center;
 }
-/* line 217, ../scss/tarabnak.scss */
+/* line 237, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider .owl-dots .owl-dot {
   width: 6px !important;
   height: 6px !important;
@@ -46631,31 +46909,31 @@ body .sliderIndex .navSlider .owl-dots .owl-dot {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 228, ../scss/tarabnak.scss */
+/* line 248, ../scss/tarabnak.scss */
 body .sliderIndex .navSlider .owl-dots .owl-dot.active {
   background: #31bad5;
   border-color: #31bad5;
   width: 11px !important;
   height: 11px !important;
 }
-/* line 239, ../scss/tarabnak.scss */
+/* line 259, ../scss/tarabnak.scss */
 body .introBox {
   border-radius: 25px;
   background-color: #ffffff;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
   padding: 25px 100px 35px;
 }
-/* line 245, ../scss/tarabnak.scss */
+/* line 265, ../scss/tarabnak.scss */
 body .introBox .row {
   margin-bottom: 0;
 }
-/* line 249, ../scss/tarabnak.scss */
+/* line 269, ../scss/tarabnak.scss */
 body .introBox .intro-title {
   color: #31bad5;
   font-size: 50px;
   margin: 0;
 }
-/* line 255, ../scss/tarabnak.scss */
+/* line 275, ../scss/tarabnak.scss */
 body .introBox .intro-text {
   margin-right: 70px;
   font-size: 16px;
@@ -46664,7 +46942,7 @@ body .introBox .intro-text {
   text-align: justify;
   line-height: 30px;
 }
-/* line 264, ../scss/tarabnak.scss */
+/* line 284, ../scss/tarabnak.scss */
 body .introBox .btn-blog {
   background: #31bad5;
   color: #ffffff;
@@ -46677,7 +46955,7 @@ body .introBox .btn-blog {
   height: 40px;
   line-height: 40px;
 }
-/* line 278, ../scss/tarabnak.scss */
+/* line 298, ../scss/tarabnak.scss */
 body .advBox {
   border-radius: 25px;
   background-color: #ffffff;
@@ -46685,17 +46963,17 @@ body .advBox {
   overflow: hidden;
   height: 150px;
 }
-/* line 285, ../scss/tarabnak.scss */
+/* line 305, ../scss/tarabnak.scss */
 body .advBox img {
   height: 100%;
   width: 100%;
 }
-/* line 291, ../scss/tarabnak.scss */
+/* line 311, ../scss/tarabnak.scss */
 body .content {
   padding-left: 0 !important;
   padding-right: 20px !important;
 }
-/* line 295, ../scss/tarabnak.scss */
+/* line 315, ../scss/tarabnak.scss */
 body .content .title-content {
   font-size: 16px;
   color: #707070;
@@ -46706,12 +46984,12 @@ body .content .title-content {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 302, ../scss/tarabnak.scss */
+/* line 322, ../scss/tarabnak.scss */
 body .content .title-content h3 {
   font-size: 18px;
   font-weight: bold;
 }
-/* line 307, ../scss/tarabnak.scss */
+/* line 327, ../scss/tarabnak.scss */
 body .content .title-content:after {
   content: '';
   width: 50px;
@@ -46723,22 +47001,22 @@ body .content .title-content:after {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 316, ../scss/tarabnak.scss */
+/* line 336, ../scss/tarabnak.scss */
 body .content .title-content:hover:after {
   width: 75px;
 }
-/* line 321, ../scss/tarabnak.scss */
+/* line 341, ../scss/tarabnak.scss */
 body .content .postBox {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
   overflow: hidden;
 }
-/* line 327, ../scss/tarabnak.scss */
+/* line 347, ../scss/tarabnak.scss */
 body .content .postBox .postImg {
   max-width: 25%;
 }
-/* line 330, ../scss/tarabnak.scss */
+/* line 350, ../scss/tarabnak.scss */
 body .content .postBox .postImg img {
   height: 100%;
   width: 100%;
@@ -46746,33 +47024,33 @@ body .content .postBox .postImg img {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 340, ../scss/tarabnak.scss */
+/* line 360, ../scss/tarabnak.scss */
 body .content .postBox .card-content a {
   color: #31bad5;
 }
-/* line 343, ../scss/tarabnak.scss */
+/* line 363, ../scss/tarabnak.scss */
 body .content .postBox .card-content a h4 {
   font-size: 16px;
   font-weight: bold;
 }
-/* line 350, ../scss/tarabnak.scss */
+/* line 370, ../scss/tarabnak.scss */
 body .content .postBox .card-action {
   padding: 10px 24px;
 }
-/* line 353, ../scss/tarabnak.scss */
+/* line 373, ../scss/tarabnak.scss */
 body .content .postBox .card-action .meta-data {
   display: inline-block;
   color: #bdbdbd;
   margin-left: 15px;
   line-height: 35px;
 }
-/* line 359, ../scss/tarabnak.scss */
+/* line 379, ../scss/tarabnak.scss */
 body .content .postBox .card-action .meta-data i {
   margin-left: 5px;
   font-size: 18px;
   line-height: inherit;
 }
-/* line 366, ../scss/tarabnak.scss */
+/* line 386, ../scss/tarabnak.scss */
 body .content .postBox .card-action .btn-more {
   background: #31bad5;
   color: #ffffff;
@@ -46785,11 +47063,11 @@ body .content .postBox .card-action .btn-more {
   height: 40px;
   line-height: 40px;
 }
-/* line 378, ../scss/tarabnak.scss */
+/* line 398, ../scss/tarabnak.scss */
 body .content .postBox .card-action .btn-more i {
   vertical-align: -5px;
 }
-/* line 390, ../scss/tarabnak.scss */
+/* line 410, ../scss/tarabnak.scss */
 body .sidebar .widgetbox {
   border-radius: 25px;
   background-color: #ffffff;
@@ -46797,7 +47075,7 @@ body .sidebar .widgetbox {
   overflow: hidden;
   padding: 15px 0;
 }
-/* line 397, ../scss/tarabnak.scss */
+/* line 417, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .title-widget {
   font-size: 16px;
   color: #707070;
@@ -46809,12 +47087,12 @@ body .sidebar .widgetbox .title-widget {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 405, ../scss/tarabnak.scss */
+/* line 425, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .title-widget h4 {
   font-size: 18px;
   font-weight: bold;
 }
-/* line 410, ../scss/tarabnak.scss */
+/* line 430, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .title-widget:after {
   content: '';
   width: 50px;
@@ -46830,15 +47108,15 @@ body .sidebar .widgetbox .title-widget:after {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 423, ../scss/tarabnak.scss */
+/* line 443, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .title-widget:hover:after {
   width: 75px;
 }
-/* line 429, ../scss/tarabnak.scss */
+/* line 449, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list {
   font-weight: bold;
 }
-/* line 434, ../scss/tarabnak.scss */
+/* line 454, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a {
   color: #707070;
   padding: 0 25px;
@@ -46846,7 +47124,7 @@ body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a {
   position: relative;
   display: block;
 }
-/* line 442, ../scss/tarabnak.scss */
+/* line 462, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a:after {
   content: '';
   width: 10px;
@@ -46859,46 +47137,46 @@ body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a:after {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 452, ../scss/tarabnak.scss */
+/* line 472, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item a:hover:after {
   width: 30px;
 }
-/* line 459, ../scss/tarabnak.scss */
+/* line 479, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item .list-nested {
   font-weight: normal;
 }
-/* line 464, ../scss/tarabnak.scss */
+/* line 484, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item .list-nested li a:before {
   content: "";
   font-family: "do0k";
   font-size: 20px;
   vertical-align: top;
 }
-/* line 471, ../scss/tarabnak.scss */
+/* line 491, ../scss/tarabnak.scss */
 body .sidebar .widgetbox .widget-body .widget-list .widget-list-item .list-nested li a:after {
   right: 32px;
 }
-/* line 483, ../scss/tarabnak.scss */
+/* line 503, ../scss/tarabnak.scss */
 body .pagination {
   font-size: 14px;
 }
-/* line 486, ../scss/tarabnak.scss */
+/* line 506, ../scss/tarabnak.scss */
 body .pagination li {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
 }
-/* line 493, ../scss/tarabnak.scss */
+/* line 513, ../scss/tarabnak.scss */
 body .pagination li.page-nav.next-page a {
   padding-left: 5px;
   padding-right: 15px;
 }
-/* line 500, ../scss/tarabnak.scss */
+/* line 520, ../scss/tarabnak.scss */
 body .pagination li.page-nav.last-page a {
   padding-right: 5px;
   padding-left: 15px;
 }
-/* line 506, ../scss/tarabnak.scss */
+/* line 526, ../scss/tarabnak.scss */
 body .pagination li.page-nav a {
   border-radius: 25px;
   line-height: 26px;
@@ -46907,18 +47185,18 @@ body .pagination li.page-nav a {
   -webkit-transition: all 320ms;
   transition: all 320ms;
 }
-/* line 511, ../scss/tarabnak.scss */
+/* line 531, ../scss/tarabnak.scss */
 body .pagination li.page-nav a:hover {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   border: solid 1px #31bad5;
 }
-/* line 517, ../scss/tarabnak.scss */
+/* line 537, ../scss/tarabnak.scss */
 body .pagination li.page-nav a i {
   vertical-align: -9px;
   font-size: 1.5rem;
 }
-/* line 524, ../scss/tarabnak.scss */
+/* line 544, ../scss/tarabnak.scss */
 body .pagination li a {
   font-size: 14px;
   color: #707070;
@@ -46926,18 +47204,18 @@ body .pagination li a {
   line-height: 30px;
   height: 30px;
 }
-/* line 532, ../scss/tarabnak.scss */
+/* line 552, ../scss/tarabnak.scss */
 body .pagination li.active {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   border: solid 1px #31bad5;
 }
-/* line 537, ../scss/tarabnak.scss */
+/* line 557, ../scss/tarabnak.scss */
 body .pagination li.active a {
   color: #707070;
   min-width: 28px;
 }
-/* line 545, ../scss/tarabnak.scss */
+/* line 565, ../scss/tarabnak.scss */
 body footer {
   background-color: #31bad5;
   color: #FFFFFF;
