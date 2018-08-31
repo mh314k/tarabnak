@@ -77,6 +77,18 @@ class Post(models.Model):
         return "{} نوشته شده توسط {} {}({})".format(self.Title, self.Author.first_name, self.Author.last_name,
                                                     self.Author.username)
 
+    def save(self, *args, **kwargs):
+        a = Category.objects.filter(POSTS__in=[self])
+        for i in range(a.__len__()):
+            for aa in a:
+                b = Category.objects.filter(CHILDS__in=[aa])
+                if b.__len__()!=0:
+                    for bb in b:
+                        self.Categories.add(bb)
+        super.save(self, *args, **kwargs)
+
+
+
 
 class Comment(models.Model):
     acptChoices = (('A', 'تایید شده'),
