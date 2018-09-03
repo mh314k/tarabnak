@@ -1,3 +1,7 @@
+{% load categories %}
+{% leaf_cat_list as cats%}
+
+
 <div class="col s12 m3 sidebar">
 	<div class="widgetbox pd-b-25">
 		<div class="title-widget">
@@ -5,32 +9,27 @@
 		</div>
 		<div class="widget-body">
 			<ul class="widget-list">
+                {% for cat in cats %}
 				<li class="widget-list-item">
-					<a href="#!">دسته اول</a>
+					<a href="{% url 'blog:categories' cat.Slug %}">{{ cat.Name }}</a>
+
 					<ul class="widget-list list-nested">
 						<li class="widget-list-item">
-							<a href="#!">زیردسته اول</a>
-							<ul class="widget-list list-nested">
+                            {% for sub in cat.CHILDS.all %}
+							<a href="{% url 'blog:categories' sub.Slug %}">{{ sub.Name }}</a>
+                            {% for subsub in sub.CHILDS.all%}
+                            <ul class="widget-list list-nested">
 								<li class="widget-list-item">
-									<a href="#!">زیردسته دوم</a>
+									<a href="{% url 'blog:categories' subsub.Slug %}">{{ subsub.Name }}</a>
 								</li>
+                            {% endfor %}
 							</ul>
+                            {% endfor %}
 						</li>
 					</ul>
 				</li>
-				<li class="widget-list-item">
-					<a href="#!">دسته دوم</a>
-					<ul class="widget-list list-nested">
-						<li class="widget-list-item">
-							<a href="#!">زیردسته اول</a>
-							<ul class="widget-list list-nested">
-								<li class="widget-list-item">
-									<a href="#!">زیردسته دوم</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
+                {% endfor %}
+
 			</ul>
 		</div>
 	</div>

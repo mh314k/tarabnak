@@ -24,19 +24,20 @@ class Category(models.Model):
     class Meta:
         verbose_name = "دسته"
         verbose_name_plural = 'دسته ها'
-        ordering = ['Name']
+        ordering = ['Name','id']
 
     def __str__(self):
-        return "{}".format(self.Name)
-
-
-
+        if self.Parent == None:
+            return "{} ".format(self.Name)
+        else:
+            return "{} --> {} ".format(self.Parent.__str__(),
+                                  self.Name)
 
 
 class Post(models.Model):
     stsChoice = (
         ('P', 'منتشر شده'),
-        ('D', 'پیشنویس')
+        ('D', 'پیشنویس'),
     )
     Title = models.CharField(max_length=200,
                              verbose_name='عنوان پست')
@@ -78,14 +79,8 @@ class Post(models.Model):
                                                     self.Author.username)
 
     def save(self, *args, **kwargs):
-        a = Category.objects.filter(POSTS__in=[self])
-        for i in range(a.__len__()):
-            for aa in a:
-                b = Category.objects.filter(CHILDS__in=[aa])
-                if b.__len__()!=0:
-                    for bb in b:
-                        self.Categories.add(bb)
-        super.save(self, *args, **kwargs)
+
+        super(Post, self).save(*args, **kwargs)
 
 
 
