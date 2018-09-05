@@ -7,5 +7,3 @@ register = template.Library()
 @register.simple_tag()
 def leaf_cat_list():
     return Category.objects.filter(Parent__isnull=True)
-cat = Category()
-cat.CHILDS

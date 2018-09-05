@@ -5,9 +5,23 @@ from taggit.managers import TaggableManager
 
 # Create your models here.
 
-def user_directory_path(instance, filename):
-    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
-    return 'user_{0}/{1}'.format(instance.Author.id, filename)
+def post_photo_path(instance, filename):
+    """
+
+    :type instance: Post
+    :type filename: str
+    """
+    ext = filename.split('.')[-1]
+    return 'user_{0}/postImages/{1}'.format(instance.Author.username, str(hash(filename))+ext)
+
+def slider_photo_path(instance, filename):
+    """
+
+    :type instance: Post
+    :type filename: str
+    """
+    ext = filename.split('.')[-1]
+    return 'user_{0}/postImages/{1}'.format(instance.Author.username, str(hash(filename))+ext)
 
 class Category(models.Model):
     Name = models.CharField(max_length=200,
@@ -60,12 +74,11 @@ class Post(models.Model):
                            help_text='تگ ها را با علامت کاما جدا کنید.',
                            blank=True)
     Image = models.ImageField(verbose_name='تصویر پست',
-                              upload_to=user_directory_path,
+                              upload_to=post_photo_path,
                               null=True,
                               blank=True)
     Categories = models.ManyToManyField(Category,
                                         related_name='POSTS',
-                                        null=True,
                                         blank=True,
                                         verbose_name='دسته ها')
 
@@ -99,12 +112,13 @@ class Comment(models.Model):
                                verbose_name='پست مورد نظر',
                                null=True,
                                blank=True)
-    CommentTo = models.ForeignKey('self',
-                                  on_delete=models.CASCADE,
-                                  related_name='REPLIES',
-                                  null=True,
-                                  blank=True
-                                  )
+    CommentTo = models.ForeignKey(
+        'self',
+         on_delete=models.CASCADE,
+        related_name='REPLIES',
+        null=True,
+        blank=True
+    )
     CommenterUser = models.ForeignKey(User,
                                       on_delete=models.CASCADE,
                                       verbose_name='کاربر نظردهنده',
@@ -113,6 +127,8 @@ class Comment(models.Model):
     CommenterName = models.CharField(max_length=200,
                                      verbose_name='نام نظردهنده',
                                      default='کاربر ناشناس')
+    CommenterEmail = models.EmailField(null=True,
+                                       blank=True)
     CommentBody = models.TextField(max_length=1000,
                                    verbose_name='متن نظر',
                                    blank=False)
@@ -128,3 +144,23 @@ class Comment(models.Model):
         return "نظر توسط {} برای {}".format(self.CommenterName, self.PostTo.Title)
 
 
+class Slider(models.Model):
+    stsChoice = (
+        ('P', 'منتشر شده'),
+        ('D', 'پیشنویس'),
+    )
+    Title = models.CharField(max_length=200,
+                             verbose_name='عنوان اسلاید')
+    Body = models.TextField(verbose_name='متن اسلاید')
+    Status = models.CharField(max_length=1,
+                              choices=stsChoice,
+                              verbose_name='وضعیت انتشار',
+                              default='d')
+    Image = models.ImageField(verbose_name='تصویر اسلاید',
+                              upload_to=slider_photo_path,
+                              null=False,
+                              blank=False)
+    class Meta:
+        verbose_name = "اسلاید"
+        verbose_name_plural = 'اسلاید ها'
+        db_table='slider'
